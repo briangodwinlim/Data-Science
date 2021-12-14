@@ -1,0 +1,762 @@
+client_uuid,company_type,industry,subindustry,company_size
+a73d63a0-3987-4eea-97d1-3c906dbe6494,single,Household & Personal Products,Household Products,10 - 49
+7b4f6c2d-9f6d-4f80-9f80-5833dd593436,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",100 - 199
+04bf50c8-63fc-4964-a30f-41e0d8acbd80,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+1780392c-d305-4d55-a5ce-a9f45a5438b3,corporation,Technology Hardware & Equipment,Computer & Electronics Retail,less than 10
+376ca844-b498-4c0a-8dc8-121d9895d489,corporation,Automobiles & Components,Auto Parts & Equipment,10 - 49
+9e6f105d-f378-4a67-8fcd-7fe2a6fda8b8,single,Manufacturing,Furniture,NA
+217d9fa3-5e5f-4520-8362-d2833327e5de,corporation,Manufacturing,"Fashion, apparel, and accessories",NA
+8a8e0b89-9736-4b84-b15f-0aeac140a268,corporation,Technology Hardware & Equipment,Electronic Equipment & Instruments,10 - 49
+c0c6cc21-092d-4dfc-9881-8ebfdfa16632,corporation,Technology Hardware & Equipment,Electronics Goods,10 - 49
+99368b2d-61b0-4414-a9b6-0e311b824271,corporation,Healthcare equipment,Health Care Supplies,10 - 49
+8798b1d2-ce25-4807-9d37-7d44c03bd01c,single,"Food, Beverage & Tobacco",Agricultural Products,NA
+5eb4821a-6215-4ac4-bd65-ba6ec256ee8a,corporation,Services,Construction – services,NA
+34641fa8-944a-4bbe-a3f3-3d569da22e2f,corporation,Software & Services,IT Consulting & Other Services,less than 10
+0e99f13c-dbf0-4634-90c9-4261d43b5bdf,corporation,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",10 - 49
+7a29547e-25bf-434b-9403-bac9fd2e971a,corporation,Construction,Construction & Engineering,50 - 99
+8ab5942a-a2cd-4305-9970-e2c58fee9d2d,corporation,Manufacturing,Office supplies,NA
+bc5b3bf6-c345-495a-936a-f216525c0498,single,Healthcare equipment,Health Care Supplies,less than 10
+4f7d6ae3-59b9-40f9-9b34-c76e8b0286ed,partnership,Technology Hardware & Equipment,Consumer Electronics,less than 10
+37988fdf-2c1c-4061-8d02-ed847d558e28,corporation,Commercial & Professional Services,IT Consulting & Other Services,10 - 49
+097606c2-43ff-4d17-b17c-887d2bce2cf5,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+32a3529e-b7b0-427a-8f68-45c1ce8a57f5,NA,Software & Services,IT Consulting & Other Services,NA
+68e1bd6a-c605-4737-87a4-72a68f0835b2,corporation,Materials,Paper Products,less than 10
+5a6ccbd8-ff1f-4830-b743-dec493c5fcf9,corporation,Services,IT software,50 - 99
+0ceaf195-a76b-4928-bfcc-2ad6a18cbca6,single,Materials,Construction Materials,less than 10
+7b895a74-3dba-4f4b-9261-5d28069e5c74,corporation,Healthcare equipment,Health Care Supplies,less than 10
+84ff0c38-d560-4a5c-a494-6c1d8738bb3f,corporation,Materials,Construction Materials,less than 10
+25750a8f-6a4e-4de6-bbf5-aa896331324f,corporation,Technology Hardware & Equipment,Consumer Electronics,10 - 49
+927f4aab-4488-449c-b59c-80ff47da91fd,single,Household & Personal Products,Personal Products,less than 10
+cc958e51-6584-413c-9c52-4d428d4b90a9,single,Technology Hardware & Equipment,Electronics,less than 10
+fe736d2b-8acf-4f60-a963-e17e384a4e6c,single,Trading,Trading Companies & Distributors,10 - 49
+516dd2a5-41db-4512-9679-19f5a17f6554,corporation,Installation,Electronic Devices,less than 10
+13113bc9-010f-4f34-a9e7-1e74d1e681fd,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",50 - 99
+8c50d6af-8d12-490c-9958-3548277df1ab,single,Semiconductors & Semiconductor Equipment,Semiconductors,less than 10
+d8008349-d963-46d9-b0b9-88b2db1bc509,single,Consumer Durables & Apparel,Housewares & Specialties,10 - 49
+abe0c75d-d455-4eb7-af68-b9545ed74a59,single,Food & Staples Retailing,Food Retail,NA
+02dd82d0-3182-4fdb-ab87-a1c7b301915c,single,Household & Personal Products,Personal Products,less than 10
+4881176c-2091-4176-909a-d1ae57cdb86e,single,Media,Media & Advertising,10 - 49
+e170faa5-7225-4705-ac34-ce31ae9b5555,corporation,Energy,Gas Distribution,100 - 199
+ee885eb4-4b7a-4662-880a-bef5d5317f05,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+74eafd74-9e0b-4e14-991e-ae639da53f6c,corporation,Transportation,Trucking,10 - 49
+a1f72e58-bfb2-478e-9db2-e5e55517b6b0,corporation,Materials,Construction Materials,10 - 49
+c310e559-16c8-4e34-8625-cad864532179,corporation,Technology Hardware & Equipment,Technology Distributors,10 - 49
+7327397e-df6f-4df7-8187-1d1eaee0dbaa,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+a9f5583b-08e6-4263-a6a5-b4dc182b5ad9,single,Household & Personal Products,Personal Products,less than 10
+5b4fbcb7-60d4-4db1-90b3-c339a6acd9ec,corporation,Services,Construction – services,10 - 49
+74059cdf-069e-4da0-b674-6d2423fe7593,corporation,Manufacturing,Chemicals & Byproducts,NA
+d835781a-193f-4aa1-bb23-f727f851b8c2,single,Household & Personal Products,Personal Products,less than 10
+63feae2d-e1e5-4139-87ad-3d55b8c78e13,single,Media,Advertising,NA
+82537608-68e7-415a-b48f-bf6be5959b75,partnership,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+d09228b0-0d52-4415-8fe3-7fe8051d1343,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",50 - 99
+f395d6d9-eaed-41de-bfc9-c3f1e92f2d01,single,Household & Personal Products,Personal Products,10 - 49
+600ac343-99e9-4f02-bbc4-ecc77dc2b344,corporation,Construction,Construction & Engineering,100 - 199
+e2c3760b-2618-486e-bb8d-79ccbd2f0e2d,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+f2b04433-b601-4290-b2bf-48f1ad92af74,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",NA
+bbe5f7f0-92c0-43a3-b054-627e97e219d5,single,Consumer Durables & Apparel,"Fashion, apparel, and accessories",less than 10
+fe1cee63-4f1f-4090-ad9f-461ee2712f35,single,Consumer Durables & Apparel,Homebuilding,10 - 49
+429b66c5-76ed-482b-9c86-c1b6585ed925,corporation,Media,Media & Advertising,NA
+08623315-3cb9-45f1-b724-143d75663143,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",50 - 99
+cd8b5590-f8f4-4fe8-8443-e180a0430d1f,single,Automobiles & Components,Automobile & other machinery,NA
+d829f50f-1533-425b-a3d9-9ead8eb62f16,single,"Food, Beverage & Tobacco",Food and beverage,10 - 49
+abc8bb2a-711b-436f-9034-b8867e1aabcf,corporation,Manufacturing,Industrial Machinery,10 - 49
+6f5ff496-7e5c-463d-9fbf-4ba4c093b606,single,Materials,Paper Products,less than 10
+727da83f-5259-4dde-840a-98b182f104b8,corporation,Materials,Construction Materials,10 - 49
+d0ccd401-0349-47ef-b681-f4d47f5ddeeb,single,Household & Personal Products,Household Products,less than 10
+9dcd1604-e92f-482b-b4fe-52a15c34c33e,corporation,Healthcare equipment,Health Care Supplies,10 - 49
+55e4144f-a54e-4236-927f-0829dac4ea36,single,Materials,Construction Materials,NA
+2902b448-ca99-4f5e-bdfb-39af33e9e418,corporation,Media,Media & Advertising,NA
+e1679918-9574-4fa9-8c24-516095a7a4ae,corporation,Materials,Raw Materials,less than 10
+e118c9d2-ce9b-431d-8685-7d388c90e368,corporation,Installation,Heavy Electrical Equipment,10 - 49
+897bfd86-fabf-4194-b4d8-f3791234ea7c,single,Food & Staples Retailing,Specialty Stores,NA
+ae99c305-214c-42b1-b5c3-0ecb69b0ad51,corporation,Food & Staples Retailing,Electronics,NA
+705e69f2-c4e2-4c82-ac24-cc3b8e161037,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+b27ef269-028d-41ed-889d-ab3601172fc7,corporation,Commercial & Professional Services,Human Resource & Employment Services,less than 10
+9c47ad0d-0e88-4d35-a8d8-4d5039a55bb3,corporation,Commercial & Professional Services,Security Services,100 - 199
+0a531c7e-b686-4656-8821-e64901bfe4cd,partnership,Food & Staples Retailing,General Merchandise Stores,10 - 49
+e747a99a-7bf7-4fae-936f-807b21f723b6,single,Food & Staples Retailing,Office Services & Supplies,less than 10
+9713a29f-4124-455a-87e7-60282b5f2547,single,Food & Staples Retailing,Food Retail,less than 10
+aef26c5c-3ff8-42d3-b31b-80785bae22a7,partnership,Services,Construction – services,10 - 49
+457bad09-5e5f-4fb4-89f8-6446009e4f74,partnership,"Food, Beverage & Tobacco",Food and beverage,50 - 99
+86449c8d-4496-4238-b277-0c280350cdbb,single,Automobiles & Components,Auto Parts & Equipment,10 - 49
+738a349c-da9a-46b0-94fd-1ba105ee7d7c,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+6303cc36-b840-497e-832d-0adda9b31d4f,single,Materials,Construction Materials,less than 10
+5e141873-c1f3-4899-b3a6-6e5ecdc17dae,partnership,Services,Construction – services,NA
+9a71a8de-5fbd-4982-baf0-754602985d06,corporation,Commercial & Professional Services,Environmental & Facilities Services,10 - 49
+ac293fbe-731f-4a31-8b91-475bc94fb72c,corporation,Software & Services,Systems Software,10 - 49
+34e0a822-e8aa-4e3f-896c-df089d756bcc,single,Household & Personal Products,Home Furnishings,less than 10
+785636cf-ef2d-481f-9027-a1a8f79ff5b4,single,Manufacturing,Trucking,10 - 49
+57e59d15-864d-44f0-8b29-0fee3c459a37,corporation,Software & Services,IT Consulting & Other Services,100 - 199
+4bfcf0fa-f374-4ae5-92d1-130389c0dc9f,corporation,Materials,Construction Materials,NA
+9a2a3d94-6f1e-4198-bd15-8090cc7d15c1,single,Services,Events & Entertainment,50 - 99
+898a6b84-234b-40d6-95b4-9db8c8f070f6,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+50fdd8c6-fd82-41a4-9c89-f6f5a54ea82d,single,Media,Advertising,more than 200
+8cbe9d6e-b051-4fcc-8032-f2de3ca780db,single,Commercial & Professional Services,Research & Consulting Services,10 - 49
+c469334e-3fe1-488f-8a1a-e73688bf05f9,single,"Food, Beverage & Tobacco",Packaged Foods & Meats,less than 10
+19eb91fc-efcd-4f17-9d76-35c3a4481213,corporation,Services,Entertainment,10 - 49
+c5007ccd-0b8b-49f9-ad92-9a466d26f5a9,single,Transportation,Trucking,less than 10
+f7bd476a-fdc4-47ab-b78d-4fd74873cbfa,corporation,Construction,Construction & Engineering,50 - 99
+45a6a072-f46a-41e4-ab7f-9d974d027f62,corporation,Materials,Construction Materials,10 - 49
+7bff2cf6-c372-41fd-91ef-caf599e52afd,single,Healthcare equipment,Health Care Supplies,less than 10
+8d1c14a3-a583-43bf-9065-573417bb43fc,corporation,Services,Medical Services,NA
+7fa6f4cf-0725-4a00-9db5-b7a4abf136e9,single,Construction,Building Products,NA
+9a504e18-27fe-459e-8e0e-1e593817a50a,single,"Food, Beverage & Tobacco",Packaged Foods & Meats,50 - 99
+bd659399-1af5-4507-902c-b1f7a60e31db,single,Household & Personal Products,Household Products,less than 10
+8510f9b4-7c77-4dc3-82d3-0d5532bb7536,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+8033298c-7569-4710-895e-80f2f50fe147,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+1b51ca0e-f05a-4654-a37a-885c2df36b56,corporation,Household & Personal Products,Household products,less than 10
+826ec88a-2f5c-4f8e-878a-eba14a015ce1,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+b793f47d-94d8-4d1e-a16a-583bf3e0570e,corporation,Construction,Construction & Engineering,10 - 49
+3300a666-46a8-433d-a446-5c553c5c6f29,corporation,Software & Services,IT Consulting & Other Services,NA
+3ee51ab8-2395-44fb-9a24-6dc104b01e43,corporation,Consumer Durables & Apparel,Commerical electronics,NA
+531298a3-a69b-421a-a952-27ffcda17bc7,single,Materials,Metal & Glass Containers,less than 10
+07997112-69f5-45ec-811f-02a94dd63f4c,single,Commercial & Professional Services,Office Services & Supplies,less than 10
+d74d9cbf-95d2-4f45-9347-80af2b6e8586,corporation,Technology Hardware & Equipment,Heavy Electrical Equipment,10 - 49
+84040704-8423-4390-9e73-55d3fb09944c,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+a17c8a63-00b6-463a-a558-c754bb113a1c,corporation,Technology Hardware & Equipment,Heavy Electrical Equipment,10 - 49
+8893a339-c8f0-4134-a80b-8ad2bf41c191,corporation,Commercial & Professional Services,Human Resource & Employment Services,100 - 199
+2bba2f39-39a8-46be-97f9-d112ef06be8e,corporation,Software & Services,IT Consulting & Other Services,NA
+6b93cd4e-ff21-44fe-b1d3-41bf591227cd,single,Materials,Safety Materials,less than 10
+aabb4f76-e329-4b39-b104-2e0fd7603e4f,single,Food & Staples Retailing,Food Retail,NA
+0a4395e8-5e79-44c8-b2ac-5ce5489feb3f,corporation,Media,Media & Advertising,NA
+40f63ec3-0fe2-48c3-b532-d5a2cfd943fc,corporation,Software & Services,Home Security,NA
+286bf3d2-85b2-4d8c-a1b9-90cea75228c8,corporation,Transportation,Trucking,NA
+7e67ca22-d088-457d-b509-6018ff7d5aae,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",NA
+0e9107d0-fbd2-44b7-851c-9c03a0e3c8aa,single,Healthcare equipment,Health Care Supplies,NA
+dbb9f13c-1e77-46d6-92e0-c33a53c546d1,corporation,Technology Hardware & Equipment,Electronics Goods,NA
+737dbaf8-baa3-4e1a-86ef-b1c9443370c6,corporation,Food & Staples Retailing,"Media, Electronic & General Merchandise",less than 10
+8ed7834d-e68e-4197-86d1-a08216b2e5d2,single,Manufacturing,Automobile Manufacturers,10 - 49
+841d2818-87ba-49ff-9b36-5df240db4245,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+731ecf0c-b18a-4531-9ca4-cdfb181bbd03,corporation,Food & Staples Retailing,Cosmetics and beauty supplies,10 - 49
+f090f6f6-8279-472b-a74c-9d49b5e8edc9,corporation,Materials,Diversified Metals & Mining,less than 10
+c7b5fc95-b42b-47b0-9b5b-fc268131a0cd,partnership,Banks,Thrifts & Mortgage Finance,100 - 199
+c02e1e74-3aae-4fb4-a023-75f785a3fd22,corporation,Services,Logistics & transportation,10 - 49
+3696af9f-8beb-4a02-9301-3d1b65fe404d,single,Semiconductors & Semiconductor Equipment,Semiconductor Equipment,less than 10
+66ee526e-079a-4b23-ac15-b1036b6ae18c,single,Healthcare equipment,Health Care Equipment,10 - 49
+917a8cec-9602-4322-abc2-0642f9d17d62,corporation,Materials,Construction Materials,10 - 49
+0749a967-0357-4942-be2c-d67af131560b,corporation,Technology Hardware & Equipment,Technology Distributors,10 - 49
+27b50aca-6516-4d0d-8624-a81759c54e7f,corporation,Healthcare equipment,Health and medical supplies,less than 10
+22951411-7b09-4166-91c9-d1e6835db823,single,Materials,Construction Materials,less than 10
+71dea50e-9c9a-47e8-9070-543a01e6c473,corporation,"Food, Beverage & Tobacco",Packaged Foods & Meats,less than 10
+aa5d9971-1c92-4e34-a3f7-15950bc19e3f,corporation,Materials,Raw Materials,less than 10
+d5fda1fd-a84e-45f8-b359-5d355bc8d784,corporation,Technology Hardware & Equipment,Electronic Equipment & Instruments,10 - 49
+6ecfa113-df2f-49ef-875b-2b131e631050,single,Semiconductors & Semiconductor Equipment,Semiconductor Equipment,10 - 49
+906c849a-72d1-4d82-9286-ddff59ad64f5,single,Food & Staples Retailing,Cosmetics and beauty supplies,NA
+52fda2a5-3898-40d9-9424-5e1eaa720981,partnership,Services,Media & advertising,50 - 99
+a85ff568-113a-419c-9ed8-20650190b15a,single,Consumer Durables & Apparel,Sports equipment,less than 10
+6c14ba9f-405f-4c50-9d44-be95413db0c2,single,Transportation,Trucking,10 - 49
+a698fed9-9e40-45be-bc37-5592b7600a31,corporation,Energy,Renewable Electricity,10 - 49
+1ee7e4ae-aea4-4d2d-9455-025302168566,corporation,Materials,Construction Materials,10 - 49
+76773b18-175b-47b2-8509-0956679a3051,corporation,Services,Entertainment & Events,NA
+9c69473f-46f1-4606-b821-230fdaa2a13a,corporation,Manufacturing,Integrated Telecommunications Services,more than 200
+c8b3e3d3-0c7a-4137-889c-2e3b0de78527,single,Materials,Construction Materials,less than 10
+d1bb7572-aca8-44cc-8e41-e3cb4a30c428,single,Manufacturing,Furniture,NA
+ff466eef-3a03-4c2a-a907-15780510a7d2,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+eea5cc20-8e6e-4887-9def-d1c619b14414,single,Materials,Construction Materials,less than 10
+7a8e20f3-e0b2-4c68-ac33-9d15c9c0e477,single,Media,Advertising,10 - 49
+fb4077c1-cc4b-4c11-bd20-4bac211ed8d1,partnership,Construction,Construction & Engineering,10 - 49
+8e6173cd-5b37-4d64-8851-5ddd5a1eb853,corporation,Manufacturing,Industrial Water Refinery Machinery,10 - 49
+0fec3be4-c117-4749-b092-1f2ac6b0f116,corporation,Materials,Construction Materials,less than 10
+59ca8b4c-b4c5-4e22-ae33-1987ebcdc650,single,Semiconductors & Semiconductor Equipment,Semiconductor Equipment,less than 10
+9125ff2f-4448-465e-a6eb-f36feac01bb2,corporation,Household & Personal Products,Personal Products,10 - 49
+f0cf3da9-7fde-448f-ad34-223e7b53d78a,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+b93b51be-d999-46aa-b53d-574725874b5f,corporation,Commercial & Professional Services,Data Processing & Outsourced Services,50 - 99
+46568b64-375e-4c48-b9a9-aeff558fd7a0,corporation,"Pharmaceuticals, Biotechnology & Life Sciences",Life Sciences Tools & Services,50 - 99
+1191c5da-01a5-4428-921e-c1e30a599d08,single,Manufacturing,General Merchandise Stores,10 - 49
+23330d14-f85b-4fdf-8349-32371eeb3797,single,"Food, Beverage & Tobacco",Agricultural Products,less than 10
+3132e3d0-d00d-4c18-87bd-de769bcca052,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+8f1c6233-2580-454d-9fb8-27fcd57728bd,single,Food & Staples Retailing,General Corporate Merchandise ,less than 10
+6b136d15-a3a7-4e6a-935b-074feabdc420,single,Commercial & Professional Services,Specialized Consumer Services,50 - 99
+785b6240-26d0-4392-b1a5-730d6a58382b,corporation,Media,Advertising,10 - 49
+1c2c21c5-b82a-40d1-9de0-ffac5de13531,corporation,Trading,Trading Companies & Distributors,50 - 99
+ce1f617b-b740-4b66-9d0e-d5ea730e1ef2,corporation,Media,Entertainment & Events,50 - 99
+baab71fb-1d6f-4ae9-84fd-59f668201ccd,corporation,Commercial & Professional Services,Human Resource & Employment Services,less than 10
+13dee325-318e-4dd1-bb29-6c6cac433ea9,corporation,Technology Hardware & Equipment,Electronic Equipment & Instruments,10 - 49
+eedbecdc-1e9e-4735-8ddc-3b8d0842f6f5,NA,Automobiles & Components,Auto Parts & Equipment,less than 10
+74d3360d-6682-4495-9051-1f7b0f5a8fad,single,Technology Hardware & Equipment,Electronic Equipment & Instruments,10 - 49
+74fd0430-13bd-4b24-b954-c8346f976a24,single,Commercial & Professional Services,Commercial Printing,less than 10
+bfab3b52-23ec-4286-8de9-5a7689dd41da,partnership,Technology Hardware & Equipment,Technology Distributors,10 - 49
+913f127e-8b37-4852-877d-bd7194336148,corporation,Construction,Construction & Engineering,more than 200
+16e29366-fac4-4c06-ab51-9f097d426720,corporation,Technology Hardware & Equipment,Heavy Electrical Equipment,10 - 49
+ef9e9276-210f-4db6-9743-34afa1419a47,corporation,Materials,Commodity Chemicals,10 - 49
+5612c8d7-a968-42c4-81d6-a2e1ff550d1c,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+c42122f5-adab-4cc0-9117-f77d94f803f0,single,Manufacturing,Building Products,less than 10
+82d3b3e7-8616-4aee-8998-1d1198492283,single,Materials,Raw Materials,10 - 49
+113de326-15a9-4abc-9f91-73d3bf3d202b,corporation,Materials,Safety Materials,10 - 49
+099eaa4d-38bc-4465-b9da-14cf2327d284,corporation,Household & Personal Products,Laundry Equipment,less than 10
+efa311c7-3f19-47a8-b43c-fcc2a7df4b23,partnership,Software & Services,IT Consulting & Other Services,10 - 49
+bfccfcaa-4606-4377-b29d-3134a4f2398c,partnership,Commercial & Professional Services,Human Resource & Employment Services,less than 10
+747afd21-ddca-483d-955f-9671211e3dc6,single,Manufacturing,Farming & agriculture,less than 10
+1d7744de-40fb-4228-9d0f-aa424209d4f1,partnership,Food & Staples Retailing,General Merchandise Stores,less than 10
+1f0c0ca7-676c-4cc9-8e65-4b7b273cacca,single,Transportation,Trucking,less than 10
+666c34c2-5213-4a06-907a-0ff81302a725,partnership,Services,Cleaning,10 - 49
+bffc8ef7-4803-4937-ad00-0af3bab2ef49,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+9ceadbca-548e-4b30-ad67-a8cc1aa57eb1,single,Commercial & Professional Services,Research & Consulting Services,less than 10
+7fe0d4b6-d472-441b-ad9a-590c21439ec1,single,Semiconductors & Semiconductor Equipment,Semiconductor Equipment,less than 10
+ea628c28-447a-48d1-a304-c175172d5379,single,Food & Staples Retailing,General Merchandise Stores,10 - 49
+0e02a4fe-78e6-40f3-a87e-0b2ac84be421,corporation,Manufacturing,"Fashion, apparel, and accessories",10 - 49
+c50f0f34-7809-44fb-9ad0-075dace3ea08,corporation,Construction,Construction & Engineering,50 - 99
+3012c5a9-456f-424e-bf8a-3b0b23b6236e,single,Banks,Regional Banks,50 - 99
+3cd2ada3-e878-4777-b787-af8ce6d4e371,corporation,Technology Hardware & Equipment,Electronic Equipment & Instruments,10 - 49
+57a213cc-82f3-457a-ae47-8da54df071a9,partnership,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+d816591f-9f49-4f55-b8d5-bdb9d337b414,corporation,Media,Advertising & Events,less than 10
+4fc34159-fa19-4817-9671-df08a3e20a93,corporation,Technology Hardware & Equipment,Electronic Equipment & Instruments,10 - 49
+9694829b-cb62-49e2-99f5-0fccb712867e,corporation,Media,Advertising,less than 10
+3525f525-4fd8-4ad0-83ac-9dbdb88820e9,corporation,Software & Services,Application Software,less than 10
+54643401-5230-48aa-b589-13053ce4ef35,single,Materials,Construction Materials,less than 10
+538b091b-5e30-4cb7-ba28-b92d1847c188,corporation,Commercial & Professional Services,Environmental & Facilities Services,less than 10
+8e5e4e64-07c5-4c10-8898-cd054b1bdd79,corporation,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+4ae64025-3ac4-4daa-b8e6-fbac82400f49,corporation,Media,Advertising,10 - 49
+a9aa65c9-7e61-4d03-9043-1510bf8de186,corporation,Technology Hardware & Equipment,Trading Companies & Distributors,less than 10
+412b3d0d-f657-4224-bea8-7e04316aca38,corporation,Services,Consulting,less than 10
+6f5ace7e-68da-4fa7-b57c-7134b6db99b0,single,Transportation,Trucking,less than 10
+07a41a3e-93e0-40ae-997b-739b5cd0c2bc,corporation,Services,Human Resource & Employment Services,10 - 49
+12f203f9-d694-4bff-951e-d14e3ded13c6,corporation,Technology Hardware & Equipment,Communications Equipment,10 - 49
+44c80c0c-3647-4fc4-9970-aefa2f493ae8,single,Construction,Construction Materials,10 - 49
+8582c899-2bdf-4d78-9c76-39eceb360edb,single,Semiconductors & Semiconductor Equipment,Semiconductors,less than 10
+4859eb9f-28b2-449b-9039-644b3c6d166c,partnership,"Pharmaceuticals, Biotechnology & Life Sciences",Pharmaceuticals,less than 10
+a888163b-5c9e-43c0-8b98-0fa65afc6ec2,single,Automobiles & Components,Auto Parts & Equipment,less than 10
+e8ecc94c-4039-4178-99d5-ef9dde9b34ad,single,Household & Personal Products,Housewares & Specialties,less than 10
+d8f0597a-a972-4c63-9978-ce7ba1fa3aea,corporation,Healthcare equipment,Medical Equipment,10 - 49
+c9f4c2a6-fde7-4d88-b3af-b7f7c19227fe,single,Commercial & Professional Services,Diversified Support Services,10 - 49
+b5de20a7-1241-492b-8690-459aa616acad,single,Household & Personal Products,Personal Products,less than 10
+d2e2a619-adf3-4273-a20e-dbeec193d15b,corporation,Commercial & Professional Services,Research & Consulting Services,100 - 199
+a321c5ea-591d-446b-933e-008bdb69e957,single,Telecommunication Services,Integrated Telecommunication Services,10 - 49
+e29f4178-93d5-46f1-9ba2-e29532f057d2,single,Automobiles & Components,Automobile Manufacturers,10 - 49
+33fcd195-4eaf-44f1-ab59-e4966c861f9e,corporation,Construction,Construction & Engineering,more than 200
+475c3221-19f9-4e07-ad05-44864eaf00fb,corporation,Telecommunication Services,Wireless Telecommunication Services,less than 10
+9205d415-c2c4-4282-9d86-ab893b0bed03,corporation,Semiconductors & Semiconductor Equipment,Semiconductor Equipment,less than 10
+b385129e-8286-4386-be70-ac84672dff56,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+f965e119-1776-43cb-9655-743aa17a53fc,corporation,Technology Hardware & Equipment,Electronic Manufacturing Services,50 - 99
+b6423f8f-bae2-4c3e-a86e-ebe10b547a2f,corporation,Media,Advertising,50 - 99
+442ad04d-7998-4360-952f-3afc81f5e97d,corporation,Telecommunication Services,Integrated Telecommunication Services,10 - 49
+7382df7c-31ff-4b57-96bb-c6443f87bc72,single,Commercial & Professional Services,Research & Consulting Services,less than 10
+aa872f1f-e034-4fd4-ab2f-d2dae7b4cebf,corporation,Healthcare equipment,Health Care Supplies,less than 10
+88afdc44-47c9-4309-9157-4772a4126239,corporation,Food & Staples Retailing,Construction Materials,10 - 49
+8598ecb5-04e8-47d2-acb3-1c29445d5b89,corporation,Services,Construction - services,100 - 199
+e29963d4-a1a9-4081-8ebb-d4763ebd1f5b,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+d7be208d-2422-4640-a7ed-9eddf564e17c,single,Media,Publishing,less than 10
+f1df44c9-943f-4f65-a2ed-25a3af523d66,partnership,Construction,Construction & Engineering,100 - 199
+f5c1d8c3-fd19-4158-a6d4-1403f36e3304,corporation,Manufacturing,Cosmetics and beauty supplies,NA
+6d07b89f-e970-40cf-a358-2dd9fd271a1e,single,Materials,Diversified Chemicals,NA
+439867ce-6c48-45b7-8d53-eb62a5e9b2c7,single,Materials,Construction Materials,10 - 49
+43bd984c-b2f5-44aa-be2c-9e9186b1217f,partnership,Consumer Services,Specialized Consumer Services,less than 10
+ff65c01c-5821-44b4-84a4-6ee4c49d64af,single,Media,Advertising,NA
+34ce2719-b283-488e-8ad3-aa9a15daae97,single,Materials,Construction Materials,less than 10
+1f4d8f42-9eb6-4201-9447-5d0a653c2a13,corporation,Healthcare equipment,Health and medical supplies,NA
+3adea8a9-a257-4239-8b70-2f09278fb5cd,corporation,Commercial & Professional Services,Human Resource & Employment Services,10 - 49
+1a804d0f-deb0-43e7-bd2a-b4434c16dd67,corporation,Healthcare equipment,Healthcare Products,10 - 49
+7f8a36d7-573e-4e8f-9400-4a948c4e8482,single,Telecommunication Services,Integrated Telecommunication Services,10 - 49
+7448b4f5-3bc6-44b6-a4fd-7e7396ecbf6c,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",10 - 49
+a4a2bf76-3179-4c04-a0e0-4e42d1fcc9fe,single,Food & Staples Retailing,Food,less than 10
+0a35864e-3e3d-4933-84c2-27ecedf49187,single,Services,Construction – services,less than 10
+93897377-72b8-4431-827f-b5ba9e12c717,corporation,Media,Entertainment & Events,NA
+d16319e2-c891-4f9b-83ed-f4297f3d1eb5,single,Services,Automobile & other machinery,10 - 49
+b469238c-2e45-495b-b840-b06072fb7b97,corporation,Materials,Chemicals,10 - 49
+a7ce9381-f163-4a89-8228-8f76a83e0fb2,single,Commercial & Professional Services,Construction - services,10 - 49
+cf14db79-234f-4a43-9e6f-3173ae5604c4,single,Food & Staples Retailing,Food Distributors,10 - 49
+1617c3a7-03c0-4c4a-87ae-60608f5e01f8,corporation,Commercial & Professional Services,Specialized Consumer Services,less than 10
+9a45e10a-3799-4662-a72d-1a5064d2868a,single,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+ad9db411-6990-4dc6-8cc0-0b2cd3d086a9,single,Materials,Construction Materials,less than 10
+386c38e4-5f80-42e1-89eb-a81c0cc9e37e,corporation,Software & Services,Application Software,less than 10
+317810c0-51cf-4816-9ec9-f83b34a97c68,single,Telecommunication Services,Integrated Telecommunication Services,less than 10
+e2087d22-e4b4-4cc5-a10d-1c8743a9854a,corporation,Commercial & Professional Services,Specialized Consumer Services,10 - 49
+f7203826-4fef-4e80-8358-57f50c3573a6,corporation,Services,Education,10 - 49
+3d8e95ef-38ca-4ba0-8824-693ddd19a8d3,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+2c0b6fae-1dac-4b4d-b3aa-380410f01e70,corporation,Commercial & Professional Services,Commercial Printing,10 - 49
+559cb411-f9a2-4b56-ad70-a352ed476668,corporation,Construction,Industrial Machinery,less than 10
+55d340cf-ffae-4a64-97f9-5e9ba1ab3f0e,single,Technology Hardware & Equipment,Electronic Equipment & Instruments,less than 10
+c6d7104b-b760-4e22-9196-371128ae2496,corporation,Software & Services,Data Processing & Outsourced Services,50 - 99
+1634d058-2d0c-4f8b-bee7-5fbb5c37ed9a,corporation,Consumer Services,Specialized Consumer Services,more than 200
+17143c8c-6dc6-4dae-9241-7fdc5bbae02e,single,Commercial & Professional Services,Diversified Support Services,less than 10
+19778be7-d8db-4935-960e-66b50dee0a66,corporation,Software & Services,Application Software,less than 10
+2d332bee-0805-4a55-9ed4-e22610ee1ea5,corporation,Manufacturing,Furniture,10 - 49
+4eac07ed-26b5-4ef3-bd04-87917e16f0dd,corporation,"Pharmaceuticals, Biotechnology & Life Sciences",Pharmaceuticals,10 - 49
+007c4cb7-fc12-4328-8a93-67eb4c91c162,corporation,Materials,Construction Materials,less than 10
+586641a8-a678-42ca-9fa3-b1f6351c0876,corporation,Energy,Independent Power Producers & Energy Traders,NA
+4d58aa8d-1146-4bd0-b12b-269da317723f,single,Transportation,Trucking,less than 10
+ea2d1add-e3c9-42e3-a3f4-810c52280f7f,corporation,Energy,Oil & Gas Equipment & Services,10 - 49
+275369df-b280-40a5-b733-f613df877ec5,corporation,Software & Services,Internet Software & Services,10 - 49
+42b5f182-150b-4ccf-9174-8781994976ca,corporation,Food & Staples Retailing,General Merchandise Stores,less than 10
+06ed205b-2180-4828-871a-f90df4c4e529,single,Commercial & Professional Services,Human Resource & Employment Services,10 - 49
+81f31c11-7afe-483c-9acc-c7c44c856855,corporation,Commercial & Professional Services,Human Resource & Employment Services,50 - 99
+142ccdaa-5250-465d-a696-4bba8a22ffd8,corporation,Semiconductors & Semiconductor Equipment,Electrical Goods,50 - 99
+54fd0604-3ab7-42e1-8777-6018ade8bcf2,corporation,Manufacturing,Furniture,NA
+fe86e867-900e-4840-943d-ed7b3ebd9a86,partnership,Commercial & Professional Services,Human Resource & Employment Services,more than 200
+0576148a-b19f-4110-8da1-e161e7f8128a,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",10 - 49
+e80beca3-20e4-43dd-9283-49f7b61ad28b,single,Consumer Durables & Apparel,"Fashion, apparel, and accessories",NA
+2b48753c-e58f-417a-a8a0-9dcb1f46a8b3,corporation,Materials,Construction Materials,NA
+06e687aa-f7cb-4502-b1d5-fa92643b1a13,single,Materials,Construction Materials,10 - 49
+9106e27c-d2ac-4273-a5dc-cd06924f466f,single,Software & Services,Systems Software,NA
+9f8f9a6c-4305-4a7c-a05c-46fd2fd725a7,corporation,Consumer Durables & Apparel,Leisure Products,10 - 49
+bb70f946-10a2-490a-925a-a393853b32d9,single,Materials,Industrial Equipment ,less than 10
+fcd8962b-a7ae-485a-a4e3-8581194ebc90,corporation,Automobiles & Components,Auto Parts & Equipment,10 - 49
+60dc49d9-cc34-4554-a9e4-7f5a4d649fbf,corporation,Telecommunication Services,Integrated Telecommunication Services,10 - 49
+bf5929e7-b7af-49fa-959e-0995b9e1487c,corporation,Transportation,Airport Services,50 - 99
+f7fc8239-0498-4b38-9e2b-f3b421cc17f7,single,Transportation,Airlines,NA
+c711f482-b645-4e0b-ba1d-f2ce52611dee,single,Consumer Durables & Apparel,"Fashion, apparel, and accessories",10 - 49
+b85d2f10-f31a-4ace-b569-9c75ea2ff69b,single,Manufacturing,"Fashion, apparel, and accessories",NA
+f8e15efe-6793-46ef-9c58-e6d98c86898a,single,Services,Construction – services,10 - 49
+aa6c1566-72fc-4bc8-b2b4-25cf55d8105a,corporation,Services,Construction – services,NA
+2862f29c-ece9-42bf-b02c-1ac469b3d60d,corporation,Services,Construction – services,NA
+60d8959e-8f21-49bb-95be-e1e5f00fbf4f,corporation,Services,Hospitals & healthcare,10 - 49
+e2faa7b1-f005-47ee-8859-54165ad62a69,corporation,Technology Hardware & Equipment,Electrical Components & Equipment,10 - 49
+48892ae1-a314-41e2-9b21-7ddd2f8a68c1,single,Manufacturing,Furniture,NA
+a5e12b20-3da5-4278-9be9-e904a3e4b97a,single,Materials,Construction Materials,10 - 49
+e3eaabb9-9b20-48b9-96b2-4c0236b17ea2,corporation,Materials,Industrial Machinery,NA
+b10be1b7-d577-4815-b9b5-20e7e5fc92dd,single,Construction,Electrical Components & Equipment,less than 10
+76891edb-48be-4a6b-a79e-144ef8d22043,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+aac538d0-c6ae-4a28-82d2-e47bcad0c90f,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+0c02100f-02d9-4b8c-bac6-01303ab5d634,partnership,Automobiles & Components,Auto Parts & Equipment,less than 10
+7c0d4fc8-5626-4f40-a9a7-4c55bf03314e,partnership,Services,Construction – services,10 - 49
+89d0b02d-428b-4210-b876-c68fafafb6bb,single,Consumer Durables & Apparel,Sports equipment,less than 10
+a054c269-e2c1-4dfc-b14f-e9ca9dae2e98,single,Household & Personal Products,Home Improvement Retail,NA
+3d10fd48-732a-4c33-a02c-9a2e17e514e5,corporation,Software & Services,Application Software,10 - 49
+b17ce954-93ef-4c92-b7e1-c3323ea9632c,single,Software & Services,Systems Software,NA
+33a56695-170d-48c0-8d5f-51bf514daa55,single,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+09d0724e-b825-433d-bb71-7364d3a12cb1,single,Services,Construction – services,10 - 49
+1ccf0e3e-0232-481b-9420-6502fbd18284,single,Media,Advertising,less than 10
+98028357-9841-4f6b-98bc-63c081521620,corporation,Transportation,Air Freight & Logistics,10 - 49
+edc10301-8cb7-42ef-82ef-0af316afa8e7,single,Services,IT services,NA
+ae44f9db-7c91-461e-9f6e-b651a5744eef,corporation,Consumer Services,Catering,NA
+459cbaed-ba15-4d69-a977-e73eeb187e2a,single,Technology Hardware & Equipment,Electronic Equipment & Instruments,less than 10
+47010a47-424d-4b0a-88b9-0d77d944cb75,single,Transportation,Trucking,less than 10
+113396a0-c92a-42ac-97b7-77aa1ebc3a0c,single,Food & Staples Retailing,Food Retail,10 - 49
+fd2d50ff-6e9c-4aea-adde-aaf504f028b4,single,Food & Staples Retailing,Homefurnishing Retail,less than 10
+606da9a0-7a91-4826-a021-4de651413fc8,corporation,Software & Services,Application Software,less than 10
+7da1332e-88d4-43e2-8248-91f3cbaf8eb6,single,Commercial & Professional Services,Research & Consulting Services,less than 10
+a1d0af62-39af-4f3c-8118-def72843b8b6,corporation,Transportation,Trucking,10 - 49
+83ec42b0-9b82-4ee8-a66f-0c7c77b7e2bf,single,Materials,Construction Materials,10 - 49
+98d73f07-3d87-44e8-95d5-c7c33033b304,single,Semiconductors & Semiconductor Equipment,Semiconductors,less than 10
+1f3e62cd-8fc0-4c40-bcd4-f06002d13482,single,Materials,Construction Materials,less than 10
+1f65d50f-a49c-4663-a2ce-83dc4276db71,single,Transportation,Trucking,10 - 49
+cb21c62c-87a5-497f-9d2a-7d15c68225dc,corporation,Commercial & Professional Services,Construction – manpower,100 - 199
+238d581b-87ab-41a2-b2b0-ab473341756b,partnership,Services,Media & advertising,50 - 99
+1e74175c-93be-40cb-a3b7-d53194d4fade,corporation,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",10 - 49
+732fa7a3-ec52-40af-91ae-49fd39643b3e,corporation,Commercial & Professional Services,Diversified Support Services,10 - 49
+e08e8993-ca62-4a2b-a51e-68614705d5b4,single,Consumer Services,Specialized Consumer Services,less than 10
+bcb74714-626a-475d-9601-f46cf4780d5a,single,Transportation,Trucking,less than 10
+8fff446f-df03-4192-9300-0935b842517b,single,Transportation,Airport Services,less than 10
+f1a757be-50bf-4e8d-acc3-39a4014d9054,single,Transportation,Logistics & transportation,NA
+ff95a873-4d55-40de-8c57-b273ca071d46,corporation,Media,Advertising,NA
+1e128044-01c6-48dd-a23a-4c2106be9709,single,Materials,Industrial Gases,less than 10
+b0f36a3f-d7e5-4374-81e1-532633f8e776,single,"Food, Beverage & Tobacco",Agricultural Products,10 - 49
+1456311b-68ab-412d-9f81-74e030474e92,single,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",10 - 49
+e1e45401-ea3b-4159-8591-99dcebf627e8,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+48e5e8a1-8636-4693-9d11-22c84eff6c9e,corporation,Technology Hardware & Equipment,Distributors,less than 10
+a8f6b0be-8104-45ca-91c4-82a8ad37ad28,single,Construction,Construction & Engineering,10 - 49
+b8404454-893a-4ee0-8eeb-ca0f7c4d90f1,single,Trading,Trading Companies & Distributors,less than 10
+45c55a74-27a5-40cb-9414-3e14d31c306a,single,Commercial & Professional Services,Research & Consulting Services,less than 10
+1c474e49-5c95-4fd3-9874-bef91a84040e,single,Manufacturing,"Fashion, apparel, and accessories",NA
+7f01100c-6774-4509-94d3-bda110a6e18c,corporation,Commercial & Professional Services,Printing,less than 10
+c0fb974d-4053-4a33-8c6c-fadbe09f1ea1,single,Services,Construction – services,10 - 49
+c403d3cb-8984-43f3-944f-b13372670775,single,Technology Hardware & Equipment,Systems Hardware & Software,less than 10
+c6ff985b-aa4f-4a76-9950-67926254937c,corporation,Transportation,Trucking,10 - 49
+24d7606d-246f-4c28-95b2-39a539879e35,corporation,Food & Staples Retailing,Food Distributors,NA
+f9e404c5-4be2-41ba-a5fd-108bb5d85539,corporation,Commercial & Professional Services,Human Resource & Employment Services,100 - 199
+a62d6f7c-0595-4e71-86e6-dcd2f9c89d1a,corporation,Services,IT services,NA
+988d8b93-087c-46c1-ad23-cba8332692fa,corporation,Materials,Construction Materials,10 - 49
+5b67904d-a47f-4bb2-8a9e-0afbfc36a1e5,single,"Food, Beverage & Tobacco",Agricultural Products,NA
+8c19e03b-9f83-4916-a13d-21c1f25183c1,corporation,Construction,Construction & Engineering,10 - 49
+7f2e9f7f-4ec1-455a-8501-baa8060ad0ca,single,Software & Services,IT Consulting & Other Services,50 - 99
+732d5963-ec22-43d6-b16b-146ba88b09b8,single,Materials,Construction Materials,NA
+1970a1cc-2316-478b-86f3-a33b48bb44ff,corporation,Materials,Construction Materials,50 - 99
+83fe089f-511e-4d27-bd5a-4a9fcd4f84cf,corporation,Commercial & Professional Services,Environmental & Facilities Services,less than 10
+1b408a7a-11f4-40a2-a5da-8f3e4753eef5,single,Services,Catering,less than 10
+06fe55ef-34c4-4f27-a819-26567fcca8e4,partnership,Media,Advertising,10 - 49
+caec0018-9255-450b-a256-a0e548dd70fc,single,Services,Printing,10 - 49
+d3db6a2e-c2be-4496-83fd-d06653443125,single,Installation,Telecommunications,10 - 49
+70656ce3-e1c5-4f1b-9075-35dfc11e69d6,partnership,Technology Hardware & Equipment,Technology Distributors,less than 10
+69e22dee-2d3c-4068-8393-2834e8169aa7,single,Media,Movies & Entertainment,10 - 49
+49e3f570-21e1-4827-b308-e632bc15466c,corporation,Services,Media & advertising,10 - 49
+fe29b333-2f2a-4c98-a8eb-21d45f12ad05,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+2d71cc45-ba2c-4a65-8fff-66bdeb1ffeba,single,Automobiles & Components,Auto Parts & Equipment,less than 10
+86f10dc4-81d9-4665-baa2-74d143b26367,corporation,Manufacturing,Furniture Manufacturing,10 - 49
+fcf2ff46-da0f-400b-9122-7f162d5ac40b,single,Commercial & Professional Services,Environmental & Facilities Services,less than 10
+c199b007-b37a-4582-b397-f83049f98391,corporation,"Food, Beverage & Tobacco",Packaged Foods & Meats,10 - 49
+e22885e5-c389-4167-9ed0-d23c67e7b96e,single,Services,Construction - services,10 - 49
+5c7aa7c5-3b23-4608-b0de-27427e1e972d,single,Media,Advertising,NA
+704381e3-001b-431f-bc83-2fd85d87bfd4,corporation,Household & Personal Products,Household products,10 - 49
+b57deebe-98b6-4572-8567-0741eb31f47d,corporation,Services,Construction – services,NA
+fa33422c-deb7-4a29-8794-c30392301587,single,Automobiles & Components,Auto Parts & Equipment,10 - 49
+f3d49bb3-7bd0-48e8-aa3c-1255cd1a9bbd,corporation,Software & Services,IT Consulting & Other Services,50 - 99
+155e4f8b-724c-4522-9cb6-39a761b698d8,corporation,Manufacturing,Trucking,less than 10
+974bed48-09aa-449d-a8d3-69521b0d4735,corporation,Food & Staples Retailing,Food Retail,NA
+9262ea50-0dfc-4ba5-9137-d93c35aa983d,corporation,Services,Security,100 - 199
+5e6e5fa0-23a6-4c44-9566-3ab15c1757d9,corporation,Telecommunication Services,Integrated Telecommunication Services,10 - 49
+12e5e094-57a1-414f-900a-5eda092d1317,corporation,Food & Staples Retailing,General Merchandise Stores,less than 10
+5b84860b-1ddc-4f49-a853-80eae3a38cf4,corporation,Media,Advertising,10 - 49
+eff6c698-2dff-4079-97a2-87d29116f72c,single,"Food, Beverage & Tobacco",Agricultural Products,less than 10
+55a0bc7b-f517-4fd7-8e68-4facc1dea0d6,single,Services,Specialized Consumer Services,less than 10
+c1463492-efc2-4011-890d-46d7d96fb583,single,Food & Staples Retailing,General Merchandise,less than 10
+d90a11d5-8a87-4d19-8f62-b510564c6eff,corporation,Materials,Construction Materials,10 - 49
+1fd96066-b139-45e5-8c74-a6a5173172f5,corporation,Construction,Construction & engineering,less than 10
+08beb6c4-2473-4000-9a76-a6b89c86e3b3,corporation,Technology Hardware & Equipment,Electronic Goods,less than 10
+32db7b83-f643-480f-a060-623550b6844a,single,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+3850ca79-c1b5-4a7b-ba18-d4593b605488,corporation,Construction,Construction & Engineering,50 - 99
+a093c25a-81fb-4d34-b99e-659db75202af,corporation,Services,IT services,10 - 49
+aa14d760-7488-4833-b3a1-7a9a294c8a42,single,"Food, Beverage & Tobacco",Agricultural Products,less than 10
+92d53b9d-76c3-4508-9c01-e4e5fbc9bb96,corporation,Healthcare equipment,Health Care Services,NA
+48f14cac-e39d-4f5f-bbe9-dc819618c1ab,single,Food & Staples Retailing,Food Retail,10 - 49
+87bb1993-0182-4338-9ca1-3812dfa7bcd9,corporation,Services,Construction – services,50 - 99
+4efbe9b0-f973-49d8-bc8c-e62860bc7326,corporation,Materials,Construction Materials,less than 10
+1b62c218-8a37-476b-8ad1-7b2f44b1fad0,single,Manufacturing,Office supplies,10 - 49
+f44f67cc-8699-4f8b-905b-831d14b5f3d1,corporation,Services,IT services,10 - 49
+4dabd2f5-6a62-4f69-8182-a5953cb00167,corporation,Technology Hardware & Equipment,Computer & Electronics Retail,NA
+c82e8e6e-35c4-47d3-99e9-2690f1154de4,corporation,Services,IT services,NA
+1b27b885-d729-4a01-8b86-8374c671ec1a,single,Technology Hardware & Equipment,Technology Distributors,less than 10
+4d0f5f69-f289-4d37-8cf2-337cfe104742,corporation,Services,Business consulting,less than 10
+61d824a3-0d32-4ec3-97fb-fcc21b1d3005,single,Services,Construction – services,less than 10
+46195985-c18c-44fe-8090-8dab7ec1bb45,single,Transportation,Airport Services,10 - 49
+681a1449-c6f3-4674-879e-1627bd1e026a,single,Services,Construction – services,NA
+80a56c0f-3a20-4bee-90c4-b902620621db,corporation,Services,Education,50 - 99
+a6af17b2-b82e-4411-bbd7-66b8cc5d4c1b,corporation,Services,Construction – services,less than 10
+a8ac81ea-d03f-4724-acbc-a9eafc59bd7c,partnership,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+6c42dcc8-9444-494e-a13d-61a9c4d1c1e0,corporation,Consumer Durables & Apparel,Boating,10 - 49
+5ea052f6-a47f-4328-a865-a3aaee9f9560,partnership,Technology Hardware & Equipment,Electronic & Manufacturing Goods,10 - 49
+7311d4ac-995e-4266-8dcc-17a524eb6f48,single,Services,Construction – services,less than 10
+71bf51b2-7ac5-4983-a341-f1d49edb7b5f,single,Materials,Construction Materials,less than 10
+d42efbd2-138d-47a9-b50a-d43ad85fef71,single,Media,Media & advertising,10 - 49
+c359f001-b2ac-45c9-a194-d1fff56b84e2,corporation,Software & Services,Systems Software,10 - 49
+ff36ab98-7ebb-45b8-bc9f-a155f532f856,corporation,Telecommunication Services,Wireless Telecommunication Services,less than 10
+e6263406-3f39-4f89-9964-7577aa1d2151,single,Materials,Steel,10 - 49
+e41e5da4-5ac8-4a3d-9d09-d8ad113bff70,single,"Pharmaceuticals, Biotechnology & Life Sciences",Pharmaceuticals,NA
+f7496baf-ef0f-4dc6-80e8-a7b7a74cb357,partnership,Materials,Construction Materials,less than 10
+d23ae9fc-5c36-4acb-b107-5fda621b5521,single,Materials,Construction Materials,NA
+978c51a2-0dbb-4f6e-8c5b-b19a6c68f7c9,corporation,Media,Advertising,10 - 49
+4b05de0c-a6c5-4fed-8b74-6e1b34f8b51f,single,Services,Construction – services,NA
+6f3892c0-747c-4005-88c3-60bef48f96c2,single,Commercial & Professional Services,Security & Alarm Services,10 - 49
+76fc47f0-7f05-469c-b0b3-35cb8507fdaa,single,Automobiles & Components,Auto Parts & Equipment,less than 10
+9c0f384a-8b4b-41e3-b842-ab53ba375371,single,Materials,Construction Materials,less than 10
+bd05d778-2ccf-4ce3-830f-fcaebf6be3d5,single,Manufacturing,Furniture,NA
+5aad6a02-586c-48b5-8e8a-13228650b5c2,single,Software & Services,Systems Software,NA
+d8ff8539-bd1b-48e1-83df-af81123aa391,single,Food & Staples Retailing,Cosmetics and beauty supplies,less than 10
+9448bffa-a21d-447d-a031-0902b84c8108,corporation,Food & Staples Retailing,Hypermarkets & Super Centers,10 - 49
+beb96dee-93ab-4742-a39e-db761070121d,single,Materials,Commodity Chemicals,less than 10
+8c1f421e-7345-491c-8d9c-f79df1242c5e,corporation,Consumer Services,"Hotels, Resorts & Cruise Lines",NA
+014e5d14-210f-4b15-8583-28164926f15f,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",10 - 49
+988ce14e-efa1-4c48-b3ec-97415b895837,single,Media,Movies & Entertainment,10 - 49
+b1091c8f-cf47-46d9-bd03-ac588dc2eca8,corporation,Media,Advertising,10 - 49
+cc71f4b4-77f8-42f6-ad6d-2fe583918508,single,Transportation,Trucking,NA
+1dacc8df-08c8-4f0d-9694-093499368c3b,corporation,Services,Construction – services,10 - 49
+345cd73a-d0c4-4a17-9993-e61122d9b6ed,single,Household & Personal Products,Personal Products,less than 10
+8023a313-532a-4094-ac84-24939d258f05,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+01934784-033e-4f7b-a569-0c28dc399ad3,single,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",10 - 49
+2d4b0400-f3d7-4c44-9613-e84ae0d715c6,corporation,Services,IT services,10 - 49
+9b757dfc-ee2c-44b5-9ceb-aed7abc339c4,single,Commercial & Professional Services,Environmental & Facilities Services,NA
+a8bbb992-e5c8-40ee-b23f-a6548fc502c8,corporation,Services,IT services,NA
+39271123-22b6-410d-8fa4-5dd1e9f4147d,partnership,Materials,Construction Materials,less than 10
+c886e1bc-fbe2-43b6-839b-59c4791d0a13,corporation,Materials,Industrial Safety Equipment,NA
+a780441a-0a91-43d7-98bd-ff0ceb03a271,single,Construction,Construction & Engineering,less than 10
+73283f60-cf7a-40ac-b10d-a31cbdbf9693,corporation,"Food, Beverage & Tobacco",Agricultural Products,less than 10
+e3df1ba4-a296-4b66-b554-ff13b64e0f65,corporation,Materials,Construction Materials,10 - 49
+043d9e30-3cb9-41c6-8f4a-71f25020e8b0,single,Services,Construction – services,NA
+004e4287-aa1d-408c-a89b-3522618bf9ab,corporation,Services,IT services,less than 10
+418ce8ac-8f2e-4a7d-8455-cf33b37e5677,corporation,Services,IT services,NA
+ea035b60-b1d7-4630-94bb-da6377b32ccd,corporation,Technology Hardware & Equipment,Electrical Components & Equipment,NA
+69b36b4a-be66-4bbc-ab34-5eac2a1c7ca7,single,Technology Hardware & Equipment,Electronic Goods,less than 10
+19d3dbd3-c558-49e3-8be2-0b2b2e7764c1,corporation,Media,Printing,NA
+fb895ec8-25ba-4223-aea9-a67778faab32,single,Services,Construction – services,10 - 49
+2b53ea1d-2c85-401e-b62d-48787babc7db,corporation,Manufacturing,Advertising signs,NA
+b5f7ff78-7b74-43b1-9c5f-3333a8444eff,single,Materials,Construction Materials,less than 10
+dd0c49fe-d2f2-4722-ae72-be0c5e911669,single,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",NA
+e0d5bdf4-b609-4847-bd31-e23579934fca,single,"Food, Beverage & Tobacco",Soft Drinks,less than 10
+5d6fee21-48b1-4286-80d9-2550e41c0378,single,Software & Services,Systems Software,10 - 49
+75325440-5cc1-4cf9-a109-542c350ff419,partnership,Manufacturing,Advertising signs,NA
+80716f7c-04d7-4dd5-953b-05e731154320,corporation,Manufacturing,Advertising signs,NA
+22f774e9-cf6c-46bf-a8de-e1d8cd093113,corporation,Software & Services,Internet Software & Services,10 - 49
+9dc04d89-9019-48b6-9721-a1fc8751a977,corporation,Software & Services,Systems Software,100 - 199
+ba04f051-8639-416c-9070-c159cc7ec4a7,single,Trading,Office supplies,less than 10
+d0587290-dd5c-41cf-bc6c-1247f7a61a85,corporation,Trading,Electronics,NA
+074c58e2-b9ed-4a0e-a083-767c8da4a51e,single,Food & Staples Retailing,Office supplies,less than 10
+547b79a3-ecf3-4c7f-beca-d52f572f7c6a,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",NA
+d1249e92-a000-4dba-9531-beb80f9e408a,single,Technology Hardware & Equipment,Technology Distributors,less than 10
+3932f401-dff2-467c-83bc-53184dacb2af,partnership,Household & Personal Products,Furniture,less than 10
+6d895842-1865-4de6-a0e6-10ff28d366cb,corporation,"Food, Beverage & Tobacco",Agricultural Products,10 - 49
+52748bd1-8521-4e8a-beac-951d047c4666,partnership,Services,Entertainment,NA
+66a418ee-11e1-4e46-ab80-dae072298135,corporation,Materials,Safety Materials,NA
+dd8251fe-caa4-4215-9ef5-5da156723dce,single,Media,Movies & Entertainment,less than 10
+a80a08e1-cd51-4ac7-b490-64ebd9fa6ee2,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",10 - 49
+469d598d-c27e-4ee9-9460-d0321b0d5320,single,Media,Advertising,NA
+8f561db7-869d-4ed1-891c-5701950c5e12,corporation,Food & Staples Retailing,Health and medical supplies,NA
+665593ce-f8f0-4454-99e5-af3c249dfed6,single,Commercial & Professional Services,Environmental & Facilities Services,10 - 49
+3f137838-acfb-41db-a1a3-7d14d689df53,partnership,Food & Staples Retailing,Food Distributors,NA
+85e0b31b-42aa-4153-81eb-9e5f12feca6f,corporation,Materials,Mining,NA
+3524082d-547a-4f23-9306-f0b1da309d89,single,Software & Services,Internet Software & Services,10 - 49
+47ee982e-7e8b-4746-8149-10a4c875986e,corporation,Healthcare equipment,Health Care Equipment,10 - 49
+80ea6be9-ed09-4a1d-8e18-97d636d64b99,partnership,Technology Hardware & Equipment,Electronics,10 - 49
+68cf9a53-8df6-407f-9842-86cacbf0acba,single,Manufacturing,Media & advertising,NA
+d26c291d-6d8a-4439-bc74-76cd81d59610,corporation,Trading,Automobile & other machinery,NA
+2e3e1c59-067f-4ee2-a151-5454f8b2e465,single,Materials,Commodity Chemicals,NA
+d84d441d-d807-4077-bd3f-27c220a2d11f,partnership,Construction,Construction & Engineering,NA
+412dfb3a-4b7b-4f5a-9da9-595f6eeed821,corporation,Services,Construction – services,NA
+909a4a2e-4cfa-40e4-93f9-7462d043847e,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+c40ba980-4aad-42ab-a556-9457add394ff,corporation,Construction,Construction & Engineering,50 - 99
+9d9e52e9-b5f2-43bb-9e10-6c220c6a24c7,corporation,Media,Printing,less than 10
+6e0072c1-d8ee-4de1-b586-67f2b1125cc9,single,Services,Construction – services,10 - 49
+3da93e54-c6bb-4772-a10f-da4b9924cf4a,corporation,Services,Construction – services,NA
+00f9ee4c-bcdc-4091-ac89-b5f7cf716631,corporation,Materials,Commodity Chemicals,NA
+cc1c52f2-b01b-4a52-80a3-c6a73f7ca6a0,single,Manufacturing,Furniture,NA
+05326cca-9a1d-47a6-a672-030a60a1ea90,single,"Food, Beverage & Tobacco",Agricultural Products,less than 10
+b404e8aa-61d7-486d-85ee-a2ac75608379,corporation,Food & Staples Retailing,General Merchandise Stores,10 - 49
+435965ff-0b61-4109-a5da-bdc4e8586891,corporation,Materials,Fertilizers & Agricultural Chemicals,less than 10
+e9b8a2fc-9224-4d70-b471-6297b26c836f,corporation,Household & Personal Products,Cosmetics and beauty supplies,NA
+1e89edaf-46d3-4305-8e10-c027234b41e3,corporation,Services,IT services,10 - 49
+9267c2c7-ac9c-400d-9056-44ce17ffab6c,single,"Pharmaceuticals, Biotechnology & Life Sciences",Pharmaceuticals,less than 10
+c22246ce-15aa-49d5-ba1b-685eb89e6ed5,single,Food & Staples Retailing,Office supplies,less than 10
+937da011-3d6c-4442-b664-c2957dba549a,single,Services,Entertainment,10 - 49
+986ddebc-d249-48a7-97c9-2c77826e90ca,partnership,Technology Hardware & Equipment,Electrical Components & Equipment,less than 10
+b71b88f0-f9cd-4746-8560-56a33b68239a,corporation,Materials,Construction Materials,50 - 99
+d419d761-30d7-4524-9d2b-7d60233e8eb5,single,Commercial & Professional Services,Commercial Printing,10 - 49
+e3bb6870-f01c-4634-ab72-0bba7c916c2e,corporation,Media,Movies & Entertainment,10 - 49
+a1be24f6-9553-41f2-b1d0-21e621f922e6,single,Manufacturing,"Fashion, apparel, and accessories",1-10
+c0493d5c-bdc2-4d80-a376-13d622707970,single,Services,Construction – services,10 - 49
+705c0a52-4a89-43e4-922f-106e2d055d44,single,Commercial & Professional Services,Research & Consulting Services,less than 10
+20a74641-5e0e-4a1b-9ed6-34441ca9cda3,corporation,Commercial & Professional Services,Human Resource & Employment Services,NA
+2c442d77-2c12-4bd5-9baf-eb30f2eaf12d,single,Household & Personal Products,Furniture,10 - 49
+21ba5e1f-b014-4c54-9f21-4303d76b149b,corporation,Software & Services,Application Software,10 - 49
+7b73a988-ed70-49df-b304-cd15eb5a8b84,corporation,Manufacturing,Furniture,10 - 49
+4eccf99b-7229-49a6-8d02-cd622d915097,corporation,Manufacturing,Furniture,10 - 49
+1df4d11c-aa49-4ebb-81a2-069ad277d78d,single,Trading,Health and medical supplies,less than 10
+ffcf20c1-a4ac-4623-b2c8-31b98781eb46,corporation,Commercial & Professional Services,Human Resource & Employment Services,NA
+b91c206b-cc5b-46fc-936f-f112cceff92a,single,Services,Catering,less than 10
+5735a155-ab3f-48f8-a96c-588b03f4b3c0,corporation,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",10 - 49
+eab16a35-9859-4ad3-bd06-aa062d4b74e1,single,Materials,Diversified Chemicals,NA
+a2876bbc-a845-4345-8497-37af8fa4e618,corporation,Services,Construction – services,NA
+d559b6a5-3b29-495c-960a-1477d554d87a,single,Manufacturing,"Fashion, apparel, and accessories",10 - 49
+e633c09e-5de3-41e5-96f3-7964199436a2,corporation,Media,Advertising,10 - 49
+07d92ad2-5f81-40d6-a8f7-649ad811e9b5,partnership,Materials,Industrial Safety Equipment,NA
+dc98f23a-3836-47e6-ae8c-ad73b7223a34,corporation,Trading,Automobile & other machinery,NA
+03b884ac-1f37-4cb8-aace-f655e28fff78,single,Manufacturing,"Fashion, apparel, and accessories",NA
+302f4c3f-631c-4d7f-8ece-bbc498f6a1b3,single,Technology Hardware & Equipment,Electronic Goods,less than 10
+4d9e5c88-887b-43a8-b1eb-5866875afcfd,corporation,Manufacturing,Furniture,NA
+2ca6331d-b3c6-456c-b38e-10b740e5cfa4,single,Transportation,Trucking,less than 10
+fc4084a0-56ce-4f4a-bd4b-ede14c698d2c,corporation,Services,Construction – services,100 - 199
+c649cb75-fe21-47c0-94a0-c99015ac07be,partnership,Services,Construction – services,10 - 49
+54f858f1-1c49-4529-9e06-9fe823d8bba3,corporation,Services,Media & advertising,100 - 199
+c03366e2-1d0a-442a-94f1-9341d5e6daf4,corporation,Household & Personal Products,Furniture,10 - 49
+1909dd9b-841e-47d3-af95-c55ee1522631,corporation,Consumer Services,Specialized Consumer Services,10 - 49
+4841c3db-ab06-4ea0-b4f8-91a901efc908,corporation,Technology Hardware & Equipment,Electronic Components,NA
+e19d2a65-1a79-43f3-8963-df281145ca41,corporation,Software & Services,IT Consulting & Other Services,10 - 49
+e8799b53-0164-482d-abe8-e8e923e867f4,single,Commercial & Professional Services,Commercial Printing,less than 10
+229c52ab-de69-4836-a0a7-0b023714a59c,single,Healthcare equipment,Health and medical supplies,10 - 49
+b22bfb34-9115-4bb2-8e9b-9e3b1d65e0d8,corporation,Services,Call center,10 - 49
+8b245474-5136-494f-957c-1f8f208e46a7,single,Services,Construction – services,NA
+5b303359-15a3-4396-9da7-b8b2e677e88c,corporation,Services,Construction – services,NA
+86cc71f5-b84e-422f-9ff1-742e4100e8ae,single,Automobiles & Components,Automobile & other machinery,less than 10
+9fbbda0c-ecc8-4402-86db-231f71fe10d1,single,Technology Hardware & Equipment,Electronics,less than 10
+e033ecc2-7bcd-484f-bf86-cb0707bb4be2,single,Materials,Metal & Glass Containers,less than 10
+e5cfd7ec-8644-4aee-889f-011bd54b2bb0,corporation,Manufacturing,Furniture,10 - 49
+e40bb44a-871c-43f2-adeb-3b0e22825360,single,Food & Staples Retailing,General Merchandise,less than 10
+901a5b06-b337-4f09-9a5c-de466f5b2383,corporation,Services,Electronics,100 - 199
+e2819270-d5be-4e3f-a718-0bc70354053c,single,Food & Staples Retailing,Office supplies,NA
+c3fff507-3752-4c5c-a5d6-c778e8c2e5fc,single,Materials,Steel,10 - 49
+8308b4d3-6280-442a-9a7f-607c8ed0a9c3,corporation,Services,Construction – services,10 - 49
+22b06e47-51f6-4497-b0ce-2b8bac1f9d77,single,Food & Staples Retailing,General Merchandise Stores,10 - 49
+8d0f6cdf-7f6a-4151-94c2-d81151099392,corporation,Services,Telecommunications,50 - 99
+f914888b-72ee-47a0-99ca-7ecca6bea244,corporation,Construction,Construction & Engineering,10 - 49
+a3f35738-6ea0-4376-bef5-7ef556887d0a,corporation,Commercial & Professional Services,Commercial Printing,10 - 49
+e92b76a7-53d1-42a6-8726-3d76cf13fd9e,single,Healthcare equipment,Medical Equipment,10 - 49
+c41f278a-bc39-4074-9f9b-e44e8faafcef,single,Materials,Construction Materials,less than 10
+b4efa948-f76c-4be7-bdcd-0a5cd800c1e4,single,Technology Hardware & Equipment,Electronics,less than 10
+a6c00f7d-8534-42f6-9a62-6005f4b929ad,single,Materials,Construction Materials,less than 10
+2bf9e56d-dd4e-435e-b614-31cce456463f,single,Materials,Construction Materials,NA
+fd32336b-f779-42c2-8d23-052beca0e6d2,single,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",less than 10
+ef37c18e-d88f-438d-b5fd-1c7fc6e85903,single,Consumer Durables & Apparel,"Fashion, apparel, and accessories",NA
+5aefdca8-29e5-40d7-a95f-f5996f676371,corporation,Services,Construction – services,10 - 49
+a5ee86b5-8683-4893-b7d9-aa649838b34f,single,Materials,Boating,10 - 49
+9c56b70c-c423-4708-8a41-275e77db3d9d,single,Media,Publishing,less than 10
+e42d10d3-4b33-495b-8de8-2e19f2b68136,corporation,Healthcare equipment,Health Care Supplies,less than 10
+6938352e-8bdc-46eb-a06e-81195031d871,corporation,Manufacturing,Electronics,100 - 199
+19c020c3-7aa6-4480-800a-42d30681afb5,single,Manufacturing,Automobile & other machinery,NA
+7f6a5b07-5b36-40bf-bfa0-852a9779597f,corporation,Commercial & Professional Services,Commercial Printing,NA
+bebe79ec-03d9-41b6-a1f6-086515fba88c,single,Services,Construction – services,less than 10
+dfa00ea7-3879-4a2c-b256-4f9fa9e74708,corporation,Materials,Industrial Lead Supply,NA
+5d74a9cd-e8c3-4b85-8264-9d58878b7079,single,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",NA
+04ab9944-c1bd-4b94-809d-438ed361d021,single,Technology Hardware & Equipment,Electronics,10 - 49
+91245bf7-7a56-4ffe-8006-399d732bad1b,corporation,Food & Staples Retailing,Office supplies,NA
+073d43e9-007e-4a9c-817f-6151599d9e74,partnership,Media,Advertising,10 - 49
+6dde02b7-92d0-42b6-abad-626c6fecbc8f,single,"Food, Beverage & Tobacco",Packaged Foods & Meats,NA
+0f40f123-adc1-4588-8f6f-fbcbe3160da6,corporation,Services,Construction – services,10 - 49
+f6da991a-3fbb-4c44-807e-431809aadcd4,corporation,Consumer Services,Specialized Consumer Services,10 - 49
+0f1caf75-576a-4728-8530-0554f0a7994d,corporation,Consumer Durables & Apparel,Household Appliances,NA
+f49c2df5-39de-4a8a-99ac-811159440877,single,Consumer Services,Specialized Consumer Services,NA
+50d73716-bf05-47dc-85db-3409fc9cb530,single,Technology Hardware & Equipment,Industrial Equipment ,NA
+80cde1ed-c341-41d9-a3c1-9263577a48d2,single,Services,Security,NA
+3649faa5-dd69-4942-bc2c-ef63d1f52f66,single,Materials,Forest Products,10 - 49
+a2a3cdcb-0e6d-4c89-8ad5-b88e644f1a7d,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+d58c8df9-2c53-4a55-89ce-734d2a0f156b,corporation,Services,IT services,NA
+bed90ea2-8745-4615-a80a-7545dc19389a,single,Food & Staples Retailing,General Merchandise Stores,less than 10
+2ba43108-8106-46f2-b24a-68140fbf9479,partnership,Technology Hardware & Equipment,Electronic Equipment & Instruments,NA
+0902ec1b-9d94-4977-8f1e-d9c66e82da11,single,Services,Logistics & transportation,10 - 49
+bbc7e22a-6730-4771-ade3-e17542a7829c,single,Energy,Energy Equipment,NA
+2f876901-451c-449a-bf4b-18d7b3e9088d,corporation,Software & Services,Data Processing & Outsourced Services,NA
+4f5192d6-cef3-4753-b6b6-1216ef2c0589,single,Healthcare equipment,Health Care Equipment,NA
+b3846ed2-b34b-49fb-8ec0-03921b2f71b6,single,Materials,Construction Materials,10 - 49
+650b59c5-01d2-4828-8576-9944184a450e,corporation,Software & Services,IT Consulting & Other Services,NA
+2e766178-2533-4dfa-8bad-9ad6fb1ed5cc,corporation,Trading,Electronics,NA
+e5591491-2a9e-44f5-a7cb-9291887ffa68,corporation,Services,Commerical & Professional Services,NA
+5b191340-95c3-4b1b-85ee-25002b5cfecf,corporation,Services,Business consulting,10 - 49
+bb70ae00-2776-471c-8150-c7b7fc4a797a,partnership,Consumer Services,Travel Agent / Logistics,less than 10
+90347d9b-00dc-40d5-896e-cfb94c99a722,corporation,Materials,Mining,10 - 49
+dd653c28-28b8-4f5d-8160-276b9eb26951,corporation,Transportation,Airlines,10 - 49
+b60c76b9-ed18-4c7d-83f7-10bfc3ae55d9,single,Materials,Construction Materials,10 - 49
+986e13fe-4210-4049-a498-481df79446d6,single,Trading,Health & Medical Supplies & Construction Materials,10 - 49
+3ab4dfe1-5b76-46d0-91ad-776d46df953d,corporation,Construction,Trading Companies & Distributors,NA
+b0f31b78-2d61-4a69-a62c-9b2431f7c820,corporation,Services,Logistics & transportation,NA
+17110945-8a7c-4b3d-b15a-0b2044eceffe,corporation,Food & Staples Retailing,Food Distributors,10 - 49
+8104969a-953e-4b91-a9ab-cec6fd75a430,corporation,Services,Construction – services,NA
+993ddb04-990a-45b2-abb5-83513796aa47,single,Services,Cleaning,10 - 49
+3c09f39e-ae81-40f8-9162-38f34ac6fe2b,single,Commercial & Professional Services,Commercial Printing,NA
+de90a3c6-2a80-4255-9bd8-46f54bde5b5c,corporation,Services,Security,more than 200
+13cc478b-0975-4251-8a1a-9cc37788b2e8,corporation,Services,Construction – services,less than 10
+78845c9e-8d9d-4167-8fd2-d970da220099,single,Materials,Industrial Machinery,less than 10
+d8d2addd-11c4-418f-96ef-a6cffb2407c2,single,"Food, Beverage & Tobacco",Agricultural Products,less than 10
+cafcad9b-394d-4efc-9acd-5b1114f7cea6,single,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",NA
+9316e332-b5fe-4e4b-bd47-1a5e5dc4df66,single,Services,Security,more than 200
+0dc0b46a-98c8-4580-a97a-e135bd543129,corporation,Manufacturing,"Fashion, apparel, and accessories",NA
+72613b2a-1f8c-476f-9e1b-3b633771f1d2,corporation,Services,Construction – services,NA
+3552d1f4-fed9-400f-b7af-070573a055e2,single,Transportation,Trucking,NA
+c3eed9a9-359a-48de-a0c9-d7c27a99ef92,single,Materials,Steel,10 - 49
+0c396457-e9a5-4564-ad43-e610ebf1e17a,single,Services,Construction – services,10 - 49
+f0ca23b0-5c67-4c5a-8e8f-53d930fe72ff,single,Food & Staples Retailing,Office supplies,less than 10
+37ebb1f5-38cd-4e04-9d34-d01aee500ded,single,Services,Construction – services,NA
+b7775e47-2c7d-44f4-89f7-9d4aa9d4fc3b,single,"Food, Beverage & Tobacco",Agricultural Products,less than 10
+9e294ee8-05d1-4619-8485-f87a56efb218,partnership,Services,Media & advertising,10 - 49
+c90e2a7e-a730-4d22-9681-4d4afec94bed,corporation,Transportation,Air Freight & Logistics,NA
+77cd6c2d-c32d-490a-8604-bb3fa7e7fcf8,corporation,Household & Personal Products,Home Improvement Retail,NA
+f911d54a-7055-46b4-b7c8-2a445a8a056e,corporation,Services,Media & advertising,10 - 49
+7540faaa-5f9d-456b-ad2e-e6ac2b04db89,single,Transportation,Trucking,10 - 49
+fd3d257a-410b-4b4b-82e6-99000e6cfc39,corporation,Media,Advertising,10 - 49
+dfe01137-8df5-4e1a-89f5-f3577106504a,single,Transportation,Trucking,NA
+6887269a-01e8-4d7e-8884-79bb17f88466,single,Consumer Durables & Apparel,"Fashion, apparel, and accessories",NA
+bc85f345-4f6b-4c82-8092-e3e04664253f,corporation,"Food, Beverage & Tobacco",Food,NA
+7f12b59b-a330-462c-9b06-cf57716157ef,single,Software & Services,IT Consulting & Other Services,less than 10
+2e201396-2c8a-44d8-b46d-6da14ac1754c,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",less than 10
+60040595-d369-443c-83e1-b7f0bf19427c,single,Transportation,Trucking,10 - 49
+c930faaf-65db-47d2-8f03-f6afbbe400c7,single,Materials,Industrial Safety Equipment,NA
+e4003cf3-2639-49b4-b914-66a3a99a02b6,single,Commercial & Professional Services,Human Resource & Employment Services,NA
+db4da518-161d-4f89-b705-7b8a10ae1e3a,corporation,Technology Hardware & Equipment,"Technology Hardware, Storage & Peripherals",10 - 49
+b6f9ff9f-217d-4fca-8773-e39eb8d73f02,single,Consumer Services,Specialized Consumer Services,10 - 49
+92edf8cf-4dfe-4272-9533-321f5d07606a,corporation,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",NA
+eb42c5e1-788f-4b24-a9ac-15022d8350ef,single,Transportation,Trucking,less than 10
+6c230c73-47d7-4579-91c4-a0ea63473364,single,Services,Construction – services,10 - 49
+4a8caed1-4eb0-42bd-b636-3067b34d6122,corporation,Services,IT services,10 - 49
+21613b9c-f84e-430d-bad4-1d07168749b3,corporation,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",NA
+9c2d7ec0-7a9a-4c1c-8d8d-f833e04fa311,single,Food & Staples Retailing,Specialty Stores,NA
+4fe8d713-a56c-4ec0-9120-98bd9cb2458a,corporation,Services,Construction – services,NA
+bf01e6e3-3317-44bd-8386-e39f788d0d17,corporation,Semiconductors & Semiconductor Equipment,Semiconductors,10 - 49
+888b4807-4dd7-4dcc-a90a-884f5912e0c4,corporation,Software & Services,Systems Software,10 - 49
+140c245d-0daa-4a67-93d5-6503c628c390,single,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",NA
+c824b715-df8d-4b9f-b3bf-09b47e6e47c6,single,Food & Staples Retailing,Food Distributors,NA
+3ae5378b-43c6-4c16-bdac-055a4b74d98f,single,Services,Construction – services,NA
+e989e94f-2007-4717-8288-07c4f6cfd5ee,partnership,Services,Construction – services,NA
+cd1cfc8d-31c9-4806-b556-88d4120039b2,single,Construction,Construction & engineering,NA
+40631f7c-0d69-4f62-b616-9d7d294fe431,corporation,Household & Personal Products,Household products,10 - 49
+046f2bc7-cb4f-4d2a-aad2-6d946b5ac571,corporation,Services,Construction – services,NA
+9c67a768-26bb-4e55-9013-078b6cb599fa,single,Services,Cleaning,10 - 49
+28951ce6-46fc-4b84-9da8-8a2fcd6d6580,corporation,Technology Hardware & Equipment,Computer & Electronics Retail,NA
+5d29d52a-ed1f-400a-b182-9cfe10816a1d,single,Materials,Construction Materials,NA
+d832d34e-0629-4d50-af21-58dd964b3333,partnership,Services,Education,NA
+6792ae49-6485-4806-9297-edcad71bb24d,corporation,Services,Call center,NA
+7653bc60-8642-47a8-a6a1-194bdcd27e48,single,Trading,Office supplies,10 - 49
+56ea9a38-d62b-46d7-9c07-56979338f7f4,single,Consumer Durables & Apparel,"Apparel, Accessories & Luxury Goods",less than 10
+7d96b72c-280a-4374-a649-35e23c1d9272,single,Services,Media & advertising,NA
+168f2d3a-88a0-4bfd-bd3a-b9f79354dee0,corporation,Commercial & Professional Services,Research & development,NA
+0eafac50-39b7-4b28-80c1-696d20ce230f,single,Food & Staples Retailing,Health and medical supplies,NA
+4c261d14-e18e-446a-a20b-0d24edfc6353,single,Food & Staples Retailing,Office supplies,10 - 49
+4b449082-8439-496f-9087-d240b6212890,corporation,Media,Advertising,NA
+d590c318-08da-4068-9f96-5bbe4d046a3c,corporation,Trading,Cosmetics and beauty supplies,50 - 99
+6bd15873-ece5-48d4-9a3d-7d0d65a6761d,corporation,Manufacturing,Cosmetics and beauty supplies,10 - 49
+cf96de3d-457d-4747-89d4-373e93ca9279,corporation,Manufacturing,"Fashion, apparel, and accessories",NA
+42deb338-4203-4238-a6a9-933bc1e17ac9,corporation,Media,Advertising,NA
+79db8e1a-f115-4765-bf38-e025a44713f0,single,Food & Staples Retailing,Specialty Stores,NA
+2af9ae0f-5f76-40b3-a5cb-36ee85f6ed7b,single,Services,Restaurants & bars – regular,NA
+4c6af2a8-7dd3-472f-bd40-ffb9487f0fc4,single,Construction,Building Products,10 - 49
+df54243d-8b24-4ae7-a79b-8dbb082ed68f,corporation,Trading,Automobile & other machinery,NA
+14cb110b-d94d-4b86-9c97-eadb378fd85d,corporation,Trading,Office supplies,10 - 49
+3d424f96-e5a5-41fe-95fd-edeb21886b5a,single,Services,Construction – services,NA
+56f675b5-269f-4c4b-9353-28653d859dff,corporation,Food & Staples Retailing,Automotive Retail,NA
+1917bf82-a0f6-4ef5-a369-7423d71fa1f9,corporation,Services,Construction – services,NA
+e4ba2488-a1b9-49ce-a2f4-c188e5f55754,corporation,Food & Staples Retailing,Specialty Stores,NA
+48868c2c-ee41-4583-b924-974d192624b1,single,Food & Staples Retailing,Office supplies,10 - 49
+889b4837-0005-4023-9fb2-5bef1fb48ca0,single,Food & Staples Retailing,Computer & Electronics Retail,NA
+a7b234f0-66c7-4bfa-9e52-e28733a54523,single,Services,Security,NA
+158fca78-7000-438a-80f1-51f4fbf85417,corporation,Services,Education,10 - 49
+56b685ac-52f5-479c-8b8e-fc8a3a3f33ab,single,Services,Media & advertising,10 - 49
+02b363b3-66a7-46b0-ade8-1103a57ea8cb,single,Technology Hardware & Equipment,Electronic Components,less than 10
+f107dacb-18d3-47de-8989-48cf0ceed052,corporation,Services,IT services,10 - 49
+3a90dd94-92c4-4f57-979a-e7b157e456b8,single,Food & Staples Retailing,Specialty Stores,NA
+af79ecf5-8254-47b1-850e-4fc7c0c9f904,corporation,Food & Staples Retailing,Automobile & other machinery,less than 10
+02c619d3-56d8-4603-b640-74e32fd40364,corporation,Media,Movies & Entertainment,NA
+1dced22a-bf2f-43f8-a55f-5d06c1d5043f,single,Construction,Electrical Components & Equipment,NA
+a9bfeb6a-acc6-4d2b-a9c2-8ff2f6d4295c,corporation,Real Estate,Diversified Real Estate Activities,NA
+6762d658-941c-4fc0-8233-845bb5f89cd0,single,Construction,Trading Companies & Distributors,NA
+f40844a5-968c-445d-b73c-e3873a1277cc,single,Services,Construction – services,10 - 49
+85ed3858-82f3-4335-8b99-a89ee9301418,single,Services,Non-profit,less than 10
+3204363e-2fe7-4990-9d73-aab73745863c,single,Commercial & Professional Services,Human Resource & Employment Services,NA
+40fb4afc-5664-40e0-9f01-e20ee944dcda,corporation,Services,Security,NA
+d64c5202-5964-4b6e-ad96-cf4af7c546f1,partnership,Commercial & Professional Services,Commercial Printing,NA
+09c25904-b394-41dc-986d-e250e6f47700,single,Services,Construction – services,50 - 99
+19a1fa61-08b9-4024-87fd-c9f057c2ac26,single,Services,Business consulting,less than 10
+b2be24fc-7cda-443d-b251-7f66cd1cb689,corporation,Consumer Services,Specialized Consumer Services,NA
+05f827f9-48cc-4e75-a55d-287fc589fe26,corporation,Construction,Trading Companies & Distributors,NA
+322027a6-6c16-4540-840b-c20bb6f7a3b8,corporation,Services,Call center,NA
+b74c90e1-138c-49ba-b905-94ec285cc490,single,Commercial & Professional Services,Human Resource & Employment Services,NA
+3d70f826-0711-43d1-842d-4c408fdb0ef2,corporation,Services,Research & development,NA
+8051b2cd-7292-46ca-a824-a096882d6bfe,single,Services,IT services,10 - 49
+d950370e-feec-44ba-92b9-40c0df7588e8,corporation,Food & Staples Retailing,Specialty Stores,NA
+25da56d3-f06b-4f73-902e-c504f048597f,corporation,Food & Staples Retailing,Specialty Stores,NA
+090a817a-8ea1-4d1c-8ac5-aa184074d9ea,single,Food & Staples Retailing,Distributors,less than 10
+5a443813-bebc-4323-b82d-d54847c906ff,corporation,Commercial & Professional Services,Environmental & Facilities Services,NA
+cebcc1b1-88c4-471c-85e8-56680d61df84,single,Materials,Construction Materials,10 - 49
+5253dcac-2746-4746-8b57-9d60b8384816,corporation,Commercial & Professional Services,Environmental & Facilities Services,NA
+cf0fb983-74cf-4771-aa88-105c6b4b518d,corporation,Services,Business consulting,NA
+ca5a0943-1d28-4597-8098-482ace88b8e5,single,Food & Staples Retailing,Specialty Stores,NA
+8aab1994-ebd1-4165-adcd-3d43f72479d6,corporation,Services,Construction – services,10 - 49
+67aa350a-a03d-4f5f-b06b-fea36d01f6ca,single,Services,Construction – manpower,50 - 99
+c0fe44aa-48bb-4ab8-a974-d358b3344ea4,corporation,Materials,Construction Materials,10 - 49
+fad8fb10-841a-40d1-93e3-f36e8f9bfe02,single,Services,Construction – services,50 - 99
+c9df2c2c-0ce9-4243-bbe5-480cdbd828a8,partnership,Media,Advertising,less than 10
+0a7f8b5f-f9db-4a0f-bc15-3f19520ab007,corporation,Transportation,Trucking,10 - 49
+341cb3f8-8331-4504-aff4-c71b30539942,single,Services,"Spa, massage & wellness",NA
+53152a62-0089-4c6b-b942-c355fe2c309a,single,Services,Construction – services,10 - 49
+2f42840f-6f0c-4223-a2a0-d5c349a6e89d,corporation,"Pharmaceuticals, Biotechnology & Life Sciences",Pharmaceuticals,NA
+4cb95789-1c07-4d3a-845a-b73a1cf154e3,single,Services,Construction – services,NA
+08ce4ee8-8fc8-4d9c-8cc0-3af5a95bdc2a,single,Services,IT services,less than 10
+d9bb5f43-2e67-4307-84d4-28da7fa6d481,single,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",NA
+71ea75c3-47e1-4cca-bb6f-e3b4748f687f,corporation,Trading,Office supplies,10 - 49
+820eb2f1-903a-47e8-aa9c-f13444f6c78e,single,Services,IT services,less than 10
+4cd892cb-6d2c-4550-8741-af91c0f0afb0,partnership,Services,Construction – services,NA
+dbe9bb7a-cbd1-4ebb-afd6-5bd98d1ca741,single,Media,Movies & Entertainment,NA
+87ccbad3-ed34-4eaf-8d89-38358c1d5bfb,single,Trading,Food and beverage,10 - 49
+72cd32ef-88e0-465f-85c4-e10cb77853f4,corporation,Services,Construction – services,NA
+030228c5-e25b-4293-902f-a15b8a88fd41,corporation,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",NA
+af1fcc2f-7b27-46d5-af69-bb9832bed316,corporation,Manufacturing,Furniture,10 - 49
+71377acd-3ae0-4408-955b-9fd56dcc570f,single,"Pharmaceuticals, Biotechnology & Life Sciences",Biotechnology,less than 10
+2a2c4151-c819-414c-9a4b-7477d09f4057,single,Manufacturing,"Raw material suppliers (plastic, metals, etc.)",10 - 49
+a6c96130-69d6-4e47-a8b9-4715db251a66,single,Food & Staples Retailing,Specialty Stores,NA
+1cab7655-d602-4645-882c-da57770da512,corporation,Services,Construction – services,10 - 49
+46b16260-7c6f-477a-b40d-2f4549fe50ab,corporation,Food & Staples Retailing,Specialty Stores,NA
+0666a980-8114-434b-81df-42a5ba9dfcce,corporation,Services,Media & advertising,NA
+bffd239a-f607-4c59-9c40-d5cd2d8db319,single,Food & Staples Retailing,General Merchandise Stores,NA
+ba62cb96-2fed-4b53-83ee-686ec980757b,single,Trading,Health and medical supplies,NA
+e5075f50-f6e0-42f3-b672-4e521675e481,single,Food & Staples Retailing,Office supplies,less than 10
+7a3ee277-b453-4264-ab7a-50489f0c573c,single,Consumer Services,Specialized Consumer Services,NA
+60c0b95c-b125-47cb-8025-682b58c005a3,single,Automobiles & Components,Auto Parts & Equipment,1-10
+13bec560-94a3-4f93-afd0-b092330a8e8d,corporation,Food & Staples Retailing,Distributors,NA
+1fa1c48a-1436-4aab-8895-1276ba1756c5,single,Materials,Construction Materials,NA
+dbad31a9-304c-4918-b323-caf46e46dd8b,single,Transportation,Logistics & transportation,NA
+f0d15d4c-5f42-415c-980c-0fec5042ed29,corporation,Food & Staples Retailing,General Merchandise Stores,NA
+a24949a7-fb2d-4fd0-bf6b-7adf8974b10c,corporation,Materials,Construction Materials,10 - 49
+07607af8-a5d7-485f-8237-10642c410d3b,corporation,Technology Hardware & Equipment,Electronic Equipment & Instruments,NA
+272c7307-6a49-4cba-b0e7-b5fd4900ba47,single,Food & Staples Retailing,Computer & Electronics Retail,1-10
+0b3c7b32-8ca1-44b0-b374-dffe96d46231,single,Food & Staples Retailing,Automobile & other machinery,1-10
+d798844f-a813-4075-9132-cd217077b826,corporation,Commercial & Professional Services,Human Resource & Employment Services,NA
+2c8eb95d-f745-4972-afbb-882aa554d05e,corporation,Semiconductors & Semiconductor Equipment,Semiconductor Equipment,NA
+1e40de50-1b8b-4e0d-86ee-55b19dd19d77,single,Food & Staples Retailing,Automobile & other machinery,1-10
+7066d2e0-2fdf-46dc-adda-8a5280f0d695,single,Manufacturing,"Fashion, apparel, and accessories",21-30
+53e4d7f4-8ce6-4421-a9a9-61045d926116,single,Construction,Heavy Electrical Equipment,NA
+88d742a0-d91a-4411-8684-0eae9ef1e783,single,Household & Personal Products,Home Improvement Retail,1-10
+00ca946c-62cd-4417-9923-89266f7296c5,corporation,Trading,Trading Companies & Distributors,1-10
+558e1608-a41f-4ef4-8324-5484ae2709e2,single,Trading,Trading Companies & Distributors,1-10
