@@ -1,0 +1,310 @@
+---
+title: An Analysis on the Correlation Between Welfare, Economic Strength, and Data Maturity on the East Asia and Pacific Region
+author: "Brian Godwin Lim, Terence Brian Tsai"
+output: 
+  html_document:
+    code_folding: hide
+---
+
+```{r setup, include=FALSE, warning=FALSE, message=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(factoextra)
+library(corrplot)
+library(rio)
+library(missMDA)
+options(scipen=999)
+```
+
+# Abstract 
+
+East Asia and the Pacific is an enormous region that stretches from Mongolia at the North, down to the lesser-known country of Tonga. It is the most diversified region in the world both culturally and economically. Various economic powerhouses such as China, Hong Kong, Singapore, Japan, and Australia are located here. On the other side of the economic spectrum, several developing countries such as the Philippines, Palau, Papua New Guinea, and Indonesia, among others, can also be found here.
+
+Over the past three decades, this region has experienced very rapid growth which brought about the emergence of previously poor countries as today’s economic powerhouses. This includes the emergence of China, Hong Kong, and Singapore as some of the world’s biggest economies, joining Australia, and Japan, among others, as the first world countries in this region. On the other hand, several developing countries can also be found here. These include countries such as the Philippines, Palau, Papua New Guinea, and Indonesia. These countries are expected to experience hypergrowth in the next few years driven by a new wave of economic growth centered around the Huanan (South China) economic sphere, a quickening of intra-regional trade, and a rise in intra-regional interdependence all of which are expected to push the economic output of countries in this region even higher. [(A Long-Term Perspective on Environment and Development in the Asia-Pacific Region, n.d.)](#ref). It is projected that by 2025, the GDP of the region will be equal to that of the output of both North and South America combined. The region has been the world’s center of growth and is seen to continue as the world’s growth engine for years to come.
+
+However, in March 2020, the world experienced an economic shock it has never experienced before when COVID-19 was officially declared as a pandemic. Lockdowns ensued, international trade was disrupted, the tourism industry was put to a halt, and the health crisis also turned into an extremely big economic crisis. The pandemic caused a significant decrease in income, high unemployment rates, and a decrease in the overall welfare of people in the region. In the Asia Pacific region, where international trade was a significant driver of the economy, the ripple effects of the pandemic hit the nations in the region especially hard. Only a few countries have been able to recover from the pandemic, and as such, most of the countries in the region still suffer from the spike in income inequality due to the economic crisis. As such, it is imperative that the overall effect of the economic strength on the welfare of the people be studied.
+
+In this project we will view the relationship between 1.) overall welfare and inclusivity of the population in the region, 2.) a robust and improving economy backed by international trade, and 3.) the level of maturity in data use with respect to policy-making. Principal component analysis (PCA) was conducted using the information on 9 World Development Indicators (WDI) on different factors concerning the economic capabilities of the countries, using various variables such as merchandise trade and GDP per capita, the overall welfare of the population based on different factors such as access to healthcare, labor security, and gender equality, and finally the data use of the country using the statistical performance indicator pillar 1. The variables were reduced to three principal components, which were interpreted as 1.) Overall Welfare of the Population, 2.) Economic Strength of the Country, and 3.) Data Maturity. Finally, we were able to conclude that the Overall Welfare of the Population and Economic Strength of the Country has a clear linear trend. This confirms that the hypergrowth of the economies in this regions in the recent years indeed translated to the increase in the overall welfare of the population.
+
+# Research Question
+
+With the rapid growth of countries in the East Asia and Pacific Region, there comes a question of how this economic growth translates to the increase in the welfare of the entire population. Moreover, the question of whether this growth mostly benefits the rich people or if the growth resonates with the entire society must still be examined. As such, this analysis aims to address the question of:
+
+1. Whether the economic strength of this region brought about by the recent hypergrowth has translated to good welfare of the overall population.
+
+2. Whether the welfare of the overall population can be correlated with a data-driven policy-making by political leaders.
+
+3. Whether this economic strength is correlated to a strong data-centric approach to governance.
+
+# Motivation on choice of dataset
+ 
+Given the goal of this research, the 9 WDI indicators were chosen on the basis of either the representation of the economic development of a country, variables that represent the welfare of the society, or the representation of data maturity of a country. The indicators were gathered for the year of 2019, right before the COVID-19 pandemic hit the world. 
+ 
+The following are the dataset chosen on the motivation behind the choice of this dataset.
+
+1. **GDP per Capita (constant 2015 US\$)**\
+GDP per Capita pertains to the gross domestic product divided by the population of a country. It is the monetary value of the economic output of the country and is a good representation of both a country’s economic robustness, and the standard of living of the people in the country. It describes how much each citizen, on average, benefit from their country’s economy.
+ 
+2. **School Enrollment, Secondary (% gross)**\
+Gross enrollment ratio indicates the capacity of the secondary level of education system to cater to their students. Education, which is a basic human right, is extremely important for human development and welfare and as such, this variable was selected to represent this aspect of the population’s welfare.
+ 
+3. **Access to Electricity, Rural (% of rural population)**\
+This variable represents the percentage of the rural population with access to electricity. This was chosen as an indicator as access to electricity is necessary for the prosperity of a community. Access to electricity is extremely important as in today’s day and age. It is indispensable in some of the basic activities which need lighting, refrigeration, and running of household appliances. This variable was chosen because of its relevance to human development and welfare.
+ 
+4. **Women Business and the Law Index Score (scale 1-100)**\
+Women Business and the Law Index Score measures how a country’ laws and regulations influences women’s economic opportunities. It tracks how a country progresses in terms of the legal equality between both sexes. It measures areas ranging from job opportunities, to mobility, to managing assets. This variable was chosen because of it highlights the welfare of women, which might not be properly represented in other indicators.
+
+5. **Prevalance of Undernourishment (% of population)**\
+East Asia and Pacific is considered to be the epicenter of malnutrition. As such, we considered it important to include the prevalence of undernourishment as a variable. Good nutrition is a necessity for survival and development. Having good nutrition prepares children to excel in school and grow up to be adults who are able to give their children better lives. Well-nourished men and women are able to work better and provide better for their families. Moreover, women are also able to avoid pregnancy complications leading to a better life for their family. As such, we consider nourishment as a cornerstone for human development and the prevalence of undernourishment as a factor that harms the welfare of the population.
+ 
+6. **Secure Internet Servers (per 1 million people)**\
+This variable pertains to the number of secure internet servers per 1 million people in the country. In the digital world of today, the quality of infrastructure, especially those concerning internet connectivity, is essential for both improving the GDP as well as the quality of life of the population. The quality of infrastructure, especially telecommunications infrastructure in the modern age, drives investment decisions which is what ultimately improves the economy.
+ 
+7. **Merchandise Trade (% of GDP)**\
+This variable refers to the total amount of merchandise imports and imports as a share of the total GDP. It is a good measure of interdependence of the economies. Given that the countries in this region have benefited vastly from interregional trade, it is appropriate to include this as an indicator for the economic strength of a country.
+ 
+8. **Statistical Performance Indicators (SPI) Pillar 1 data use score (scale 0-100)**\
+SPI pillar 1 refers to legislation and governance covering the existence of laws and a functioning institutional framework for the statistical system; A higher score represents a better capability of the existence of laws and framework. In today’s information age, the existence of institutional frameworks and laws that govern data use, data services, data products, data sources, and data infrastructure is essential for both the welfare and development of a society.
+ 
+9. **Vulnerable Employment, total (% of total employment) (modeled ILO estimate)**\
+Vulnerable Employment refers to the % of the total employment that comes in the form of self-employment without employees, referred to as own-account workers, and those who are working family members who are unpaid. This group usually lacks social protection and thus, are more vulnerable to shock and are the most likely to fall into poverty. Thus, this variable was included to represent job and individual economic security of each person in the population, which is essential for their welfare and development.
+
+```{r, warning=FALSE, message=FALSE}
+data_raw = import("WDIEXCEL.xlsx", which = 1)
+country = import("WDIEXCEL.xlsx", which = 2)
+series = import('WDIEXCEL.xlsx', which = 3)
+
+indicators = c(
+  "GDP per capita (constant 2015 US$)", # Economic Policy and Debt
+  "School enrollment, secondary (% gross)", # Education 
+  "Access to electricity, rural (% of rural population)", # Environment
+  "Women Business and the Law Index Score (scale 1-100)", # Gender
+  "Prevalence of undernourishment (% of population)", # Health
+  "Secure Internet servers (per 1 million people)", # Infrastructure
+  "Merchandise trade (% of GDP)", # Private Sector and Trade
+  "Statistical performance indicators (SPI): Pillar 1 data use score (scale 0-100)", # Public Sector
+  "Vulnerable employment, total (% of total employment) (modeled ILO estimate)" # Social Protection and Labor
+)
+
+df = data_raw %>% 
+  left_join(
+    country,
+    by = "Country Code"
+  ) %>% 
+  filter(
+    Region == "East Asia & Pacific",
+    `Indicator Name` %in% indicators
+  ) %>% 
+  select(`Country Name`, `Indicator Name`, `2019`) %>%
+  spread(
+    key = "Indicator Name", value = "2019"
+  )
+``` 
+
+# Details on Transformation of Data and Missing Values
+
+The dataset was chosen from the ones that had as little missing values as possible. However, it is unavoidable that some countries lack the data in some categories. For the missing values, the data was imputed from the values of the other countries for the same variable using the `missMDA::imputePCA()` function [(PCA - Principal Component Analysis Essentials, 2017)](#ref).
+
+```{r}
+for (idx in 1:dim(df)[2]){
+  split = str_split(colnames(df)[idx], " ")[[1]][1]
+  colnames(df)[idx] = split
+}
+
+rownames(df) = df$`Country`
+df = df %>% select(-`Country`)
+
+df = imputePCA(df, method = "EM",
+               ncp = estim_ncpPCA(df)$ncp)$completeObs
+
+df %>% write.csv("Final_Data.csv")
+# df = import("Final_Data.csv")
+# rownames(df) = df$`V1`
+# df = df %>% select(-`V1`)
+```
+
+## Data Exploration
+
+Before performing PCA, we first take a look at the final dataset we will be using in this project.
+
+```{r}
+df
+df %>% 
+  summary()
+data.frame(Mean = round(apply(df, 2, mean),2), 
+           Variance = round(apply(df, 2, var),2))
+```
+
+# Performing PCA
+
+To perform PCA, we use the `prcomp()` function. This produces the principal component loading vectors, standard deviations of each principal component, and the principal components, among others. We also note that there are 9 principal components. This is computed as $M = \min(n-1, p) = \min(37-1, 9) = 9$, where $n$ is the number of observations (countries) and $p$ is the number of indicators. Moreover, before performing the PCA, the dataset was demeaned. Moreover, to avoid one variable dominating the variance due to its absolute size, the dataset was also normalized.
+
+```{r}
+pca = prcomp(df, center = TRUE, scale = TRUE)
+pca
+pca$scale
+pca$center
+pca$x
+```
+
+## Determining how many PC’s to retain
+
+After performing the PCA, we needed to determine how many principal components to retain. We used the Proportions of Variance Explained (PVEs) to determine this. The `summary()` function was used to determine the first PC in which the cumulative proportion of variance was at least 70%-80%. Since the cumulative proportion of the second PC is 74.64% and the cumulative proportion of the third PC is 83.24%, we can retain the first two or three PCs for our analysis.
+
+However, using the `factoextra::fviz_eig()` function, we plot a scree plot which indicates that we retain the three PCs for our analysis. Thus, moving forward, we will consider the first three principal components.
+
+```{r}
+pca %>% 
+  summary()
+pca %>% 
+  fviz_eig(addlabels = TRUE)
+```
+
+# Analysis of PCA Results
+
+## Analysis Through Biplots
+
+```{r, message=FALSE, warning=FALSE}
+fviz_pca_biplot(pca, axes = c(1, 2), repel = TRUE,
+                col.var = "#373792", 
+                col.ind = "#696969"  
+                )
+fviz_pca_biplot(pca, axes = c(1, 3), repel = TRUE,
+                col.var = "#373792", 
+                col.ind = "#696969"  
+                )
+fviz_pca_biplot(pca, axes = c(2, 3), repel = TRUE,
+                col.var = "#373792", 
+                col.ind = "#696969"  
+                )
+```
+
+Looking at the three biplots, we immediately notice that each axis (principal component) has at least one WDI strongly correlated to it (either positively or negatively). At first glance, we see that the variables Statistical, Women, Access, and School are positively correlated with the first principal component while Prevalence and Vulnerable are negatively correlated with it. Meanwhile, the variables Secure, Merchandise, and GDP are positively correlated with the second principal component. Finally, the Statistical variable is positively correlated to the third principal component. Interestingly, we see that when plotting the second and third axes, we notice that Access is negatively correlated with the third principal component.
+
+A closer look at the countries in the biplot shows that the observations are in line with our expectations. For example, Singapore and Hong Kong are close to the GDP vector since they have a consistent record of having a high level of economic development. Meanwhile, countries like Australia and New Zealand are near the School vector since they are known for having one of the best educational systems in the world. Unfortunately, the biplots also reveal that no country has a strong data infrastructure and framework present for the appropriate use of data (Statistical variable) since no country is located near the Statistical vector.
+
+## Analysis Through Graph of Variable
+
+```{r}
+var = get_pca_var(pca)
+var
+```
+
+### Correlation Circle
+
+In a correlation plot, the positively correlated indicators are grouped together while negatively correlated indicators can be found in opposite (non-adjacent) quadrants. In determining what each principal component describes, the indicators which are closest to the particular axis are to be analyzed [(PCA - Principal Component Analysis Essentials, 2017)](#ref).
+
+```{r}
+var$coord
+fviz_pca_var(pca, axes = c(1,2))
+fviz_pca_var(pca, axes = c(1,3))
+fviz_pca_var(pca, axes = c(2,3))
+```
+
+From the results, we see that for the first principal component, the variables Access, Women, Statistical, School are on the positive end and almost completely composed of this PC in the graph. On the other hand, we have the Prevalence and Vulnerable variables on the negative end. Noticeably, these are the variables that are concerned with the welfare of the population. On the positive end, we see the indicators of good welfare whilst on the negative end, we see indicators of bad welfare. From this, we can say that the first PC can be interpreted as the Overall Welfare of the Society. For a country with a positive coordinate on the PC 1 axis, we can say that their citizens have good welfare and are able to enjoy good lives. On the other hand, those countries with negative PC1 coordinate mostly likely have citizens that experience a poor quality of life.
+ 
+For the second principal component, we see that the variables GDP, Secure, and Merchandise are positively correlated with this axis. These variables are those concerning the economy of a country. Secure Internet servers indicate strong infrastructure and thus, are able to benefit from more investments. GDP per capita shows both the economic production of a country as well as the quality of life. Having high merchandise trade indicates a high degree of international trade of the country which is beneficial for its economy. Thus, we can infer that PC2 refers to the Economic Strength of a Country. Those countries found on the positive side should be developed countries that have better and larger economies. On the other hand, those with negative PC2 coordinates are most likely developing countries with weaker economies.
+
+For the third principal component, we see that it is primarily composed of the Statistical variable. This suggests that the third principal component represents the Data Maturity of the Country. This indicates how high quality data is used in guiding decision making. Those countries found on the positive side should be countries with strong national statistical systems. On the other hand, those with negative coordinates are likely to have challenges with their statistical systems.
+
+### Quality of Representation
+
+```{r}
+var$cos2
+corrplot(var$cos2, method = "color", is.corr = FALSE)
+```
+
+The correlation plot supports our initial hypothesis about the three principal components
+
+- The Access, Prevalence, School, Vulnerable, Women variables are strongly represented in the first principal component supporting the hypothesis that the first principal component represents the overall welfare of the population. 
+
+- The GDP, Merchandise, and Secure variables are strongly represented in the second principal component. We note that these variables are generally predictors of the economic strength of a country. Thus, the second principal component can be an indicator of the economic progress of a country.
+
+- For the third principal component, we note that only the Statistical variable is strongly represented with it. This indicates that the third principal component can be interpreted as the data maturity of a country.
+
+### Contribution of Variables to PCs
+
+```{r}
+var$contrib
+corrplot(var$contrib, method = "color", is.corr = FALSE) 
+```
+
+Looking at the contribution of each variable, we get the following insights
+
+- The variables Access, Prevalence, School have approximately equal contributions in the first principal component. This is followed by the Vulnerable and Women variables. This indicates that indeed the first principal component is a good representation of welfare since we have a diverse set of indicators, all pointing towards welfare of the population, that are (almost) equally represented.
+
+- The GDP, Merchandise and Secure variables also have approximately equal contributions in the second variable. Although, the Secure variable notably has a larger contribution. However, we still get a fairly diverse set of indicators for the Economic Strength.
+
+- For the third principal component, it is evident that the Statistical variable contributes the most to the component. This sole factor indicates the importance of data infrastructure in classifying countries in the highly digital world today. 
+
+## Analysis through Graph of Observations
+
+```{r}
+ind = get_pca_ind(pca)
+ind
+```
+
+### Coordinate for the Individuals
+
+```{r}
+ind$coord
+fviz_pca_ind(pca, axes = c(1,2))
+fviz_pca_ind(pca, axes = c(1,3))
+fviz_pca_ind(pca, axes = c(2,3))
+```
+
+From the plot of the first and second principal components, we immediately notice a linear pattern among the observations. This indicates that there is a linear relationship between the welfare of the citizens and the economic strength of the country. Countries such as Australia, New Zealand with higher overall citizens welfare also have a strong economic strength while countries like Papua New Guinea with low economic growth also have poor overall welfare for citizens. Thus, we can say that in some sense, the economic growth really translated into the improvement of the welfare of the citizens in the area. This increase in welfare could come through economic growth leading to improved healthcare systems, increased food intake, as well as better access to the other basic needs for even the poorest of the poor. Contrary to Clarke (2003), who concluded that in economies that grew rapidly, welfare did not improve, we found that even in these times of rapid economic growth, there was trend within the Asia Pacific countries that increasing economic strength really translated to increased welfare.
+
+From the second plot of the first and third principal components, we do not see any noticeable pattern. Unlike the first plot, there seems to be no relationship between the data maturity of the country and the overall welfare of the citizens. Countries like Japan and Guam having positive overall welfare are located in different quadrants with respect to the first and third principal components. Thus, there seems to be no evidence that the high overall welfare of the population can be attributed to politicians using data efficiently in decisions and policy making.
+
+Similarly, in the third plot of the second and third principal components, we also do not see any noticeable pattern. There appears to be no relationship between the two principal components. Countries like Myanmar and Tuvalu with low economic strength are located in different quadrants with respect to the second and third principal components. Thus, there is no evidence that a higher economic strength can be attributed to officials efficiently using data for policies.
+
+### Squared Cosine of a Component with an Observation (cos2)
+
+The squared cosine shows the importance of a principal component for a given observation (country). It measures the square of the cosine of the angle from the right triangle made with the origin, the observation, and its projection on the principal component. Thus, a higher value indicates that the principal component is more important in getting the full information about the country [(PCA - Principal Component Analysis Essentials, 2017)](#ref).
+
+```{r}
+ind$cos2
+fviz_cos2(pca, choice = "ind", axes = 1)
+fviz_cos2(pca, choice = "ind", axes = 2)
+fviz_cos2(pca, choice = "ind", axes = 3)
+```
+
+For the first principal component (representing welfare), we see that for countries like American Samoa, Japan, and New Zealand, this principal component gives us a good picture of the full information about the country. Noticeably, the first principal component of North Korea has the most negative PC1 coordinate, which is as expected as it has been noted that North Korea citizens have one of the worst qualities of life in the world. This also means that they are closer to the first principal component in the biplots either in the positive direction or the negative direction. Therefore, these are the countries with either very good or very bad overall welfare. Meanwhile, for countries like Malaysia, Kiribati, Lao PDR, the first principal component is not that useful in reconstructing the entire information about the country. This means that they are not located near the first principal component and have average overall welfare. 
+
+For the second principal component (representing economic growth), countries like Singapore and Hong Kong have higher values indicating that this principal component is useful in giving us a good picture of the entire information about the country. This also means that these countries either have a very high or low economic strength as they are located near the second principal component. This stems from the fact that Singapore and Hongkong are considered economic centers in the region. Moreover, for countries like Vietnam and Guam, this principal component is not as strong since they only have average economic strength and are not located near this principal component.
+
+For the third principal component representing data maturity, countries like Nauru, Myanmar, and Kiribati have a high squared cosine either because they have a high data maturity or low data maturity. On the other hand, Australia, Korea, and Fiji have the lowest value. Furthermore, we also see that the third principal component is not very useful in getting more information about a lot of countries.
+
+### Contribution of an Observation to a Component 
+
+```{r}
+ind$contrib
+fviz_contrib(pca, choice = "ind", axes = 1)
+fviz_contrib(pca, choice = "ind", axes = 2)
+fviz_contrib(pca, choice = "ind", axes = 3)
+```
+
+As seen in the first graph, North Korea contributes the most to the first principal component. This is consistent with our earlier biplot since North Korea has the most negative coordinate in the first principal component. American Samoa and Australia also followed by having a large contribution to the first component. Meanwhile, countries like Malaysia, Kiribati, and Lao PDR have the least contribution to the first principal component. We also note that the average contribution per county is 2.70%.
+
+In the second graph, we also see that Korea has the most contribution since it has the most positive coordinate in the second principal component. This is followed by Singapore and Hong Kong. On the other end, Malaysia, Vietnam, and Guam has the least contribution. Similarly, the average contribution per country is also 2.70%.
+
+In the third graph, we can see that Myanmar, Tuvalu, Nauru have the highest contribution since they are located in the extremes of the principal component while Australia, Japan, Fiji has the lowest contribution. Similarly, the average contribution per country is also 2.70%.
+
+# Conclusions and Recommendations
+
+From the data above, we were able to obtain three principal components which we were able to interpret as 1.) Overall welfare of the population, 2.) Economic strength of the Country, and 3.) Data Maturity. In our analysis of the plot of the countries in the axes of the PC, we saw that for the welfare and economic principal components, the countries formed somewhat of a linear trend, with welfare of a country generally increasing as the Economic Strength increased. This affirms that the recent hypergrowth in the economy in this region in the past few years has really translated to the increase in the welfare of the citizens. This can be seen as those countries that have already developed, that have better and bigger economies, generally have better welfare than those with smaller, developing economies. We saw countries like China, Singapore, Hongkong, New Zealand, Australia, which are generally rich countries, have positive welfare principal components. On the other hand, poorer countries like Palau, Malaysia, Indonesia, are found on the 3rd quadrant of the PC1 PC2 biplot, showing that these poorer countries have bad welfare. This might seem extremely intuitive; However, some studies and reports, such as that of Clarke (2003) who argue that there is no empirical evidence that economic growth improved welfare, and Rubin and Segal (2015) who argue that economic hyper growth and income inequality are positively associated, and as such, makes poor people relatively worse off. As such, forming the conclusion that welfare generally increased as economic strength increased in the region is important. Moreover, from the analyses with PC3, we found that there is little to no evidence in correlation of the data aspect with the first two components. This may also be because of the fact that the data aspect explains very little about the countries. As countries in the area are in the relatively earlier stages of the information revolution, we expect that the data law and infrastructure would only continue to improve and eventually contribute to both the economic strength of a country, and the overall welfare of its citizens.
+
+As the COVID-19 Pandemic goes on, more and more data about how the impact on the drastic change in the economy changed the welfare of the citizens would be readily available. In this paper, we were limited by the missing data on the year 2020, and as such, were forced to only use 2019 data. For future research, we recommend that researchers try to examine the same effect using data about countries during the year 2020, 2021, and future years that are to be affected by the pandemic. Examining this would be helpful as we can really be able to see if economic growth and rebound is inclusive, and the recovery from the welfare loss because of the pandemic can be accelerated by the growth of the economy. Lastly, this would guide policy makers on whether they have to implement more measures to ensure that economic growth is inclusive and does indeed translate to increased welfare.
+
+# References{#ref}
+
+A Long-term Perspective on Environment and Development in the Asia-Pacific Region. (n.d.). Retrieved December 16, 2021, from https://www.env.go.jp/en/earth/ecoasia/workshop/bluebook/chapter1-1.html
+
+Clarke, M. (2003). Is economic growth desirable? A welfare economic analysis of the Thai experience [PhD, Victoria University]. https://vuir.vu.edu.au/232/
+
+Imputation of missing values for PCA. (n.d.). Retrieved December 17, 2021, from https://stats.stackexchange.com/questions/35561/imputation-of-missing-values-for-pca
+
+PCA - Principal Component Analysis Essentials. (2017, September 23). http://www.sthda.com/english/articles/31-principal-component-methods-in-r-practical-guide/112-pca-principal-component-analysis-essentials/
+
+Rubin, A., & Segal, D. (2015). The effects of economic growth on income inequality in the US. Journal of Macroeconomics, 45, 258–273. https://doi.org/10.1016/j.jmacro.2015.05.007
