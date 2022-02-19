@@ -8,3 +8,5 @@ Reinforcement Learning implementation of GridWorld in [Reinforcement Learning: A
     - 80% of the time, the action North takes the agent North (if there is no wall there)
     - 10% of the time, North takes the agent West; 10% East
     - If there is a wall in the direction the agent would have been taken, the agent stays put
+
+<img src="assets/Cliff.png" width="300">

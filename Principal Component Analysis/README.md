@@ -1,2 +1,2 @@
 # Principal-Component-Analysis
-Principal Component Analysis project on the [World Bank World Development Indicators Dataset](https://datacatalog.worldbank.org/dataset/world-development-indicators).
+Principal Component Analysis project on the [World Bank World Development Indicators Dataset](https://datacatalog.worldbank.org/dataset/world-development-indicators). The rendered output can be found [here](https://www.brianlim.xyz/files/Principal-Component-Analysis).
